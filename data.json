@@ -1,0 +1,2739 @@
+{
+  "automation.change_theme": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Change Theme",
+      "id": "1603375532588",
+      "last_triggered": "2021-07-11T00:29:31.350914+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "ffabe976927365bb8b34cadb7a73c97d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.change_theme",
+    "last_changed": "2021-07-06T13:11:22.146648+00:00",
+    "last_updated": "2021-07-11T00:29:31.362720+00:00",
+    "state": "on"
+  },
+  "automation.enter_bathroom": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Enter Bathroom",
+      "id": "1607171085772",
+      "last_triggered": null,
+      "mode": "single"
+    },
+    "context": {
+      "id": "43bc8eaf089e64c47589b1cf34e3cc4a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.enter_bathroom",
+    "last_changed": "2021-07-06T13:11:22.147712+00:00",
+    "last_updated": "2021-07-06T13:11:22.147712+00:00",
+    "state": "off"
+  },
+  "automation.enter_shayan_s_room_morning": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Enter Shayan’s Room",
+      "id": "1617179818973",
+      "last_triggered": "2021-07-11T06:40:00.076963+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "bc80f07aeb0824399c93e7be0898f1cc",
+      "parent_id": "ce55a8b39dfffa4beb22c538e7a80bc5",
+      "user_id": null
+    },
+    "entity_id": "automation.enter_shayan_s_room_morning",
+    "last_changed": "2021-07-06T13:11:22.151465+00:00",
+    "last_updated": "2021-07-11T06:40:00.099967+00:00",
+    "state": "on"
+  },
+  "automation.leave_shayans_room": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Leave Shayans Room",
+      "id": "1612365397729",
+      "last_triggered": "2021-02-06T17:42:38.389253+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "0b5981341d8dd06d0944f1a67083c114",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.leave_shayans_room",
+    "last_changed": "2021-07-06T13:11:22.149067+00:00",
+    "last_updated": "2021-07-06T13:11:22.149067+00:00",
+    "state": "off"
+  },
+  "automation.off_fan": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Off Fan",
+      "id": "1619253489668",
+      "last_triggered": "2021-07-11T02:06:21.957687+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "fad317a31f25bd72cd8ff69085770a0d",
+      "parent_id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "user_id": null
+    },
+    "entity_id": "automation.off_fan",
+    "last_changed": "2021-07-06T13:11:22.154317+00:00",
+    "last_updated": "2021-07-11T02:06:22.044342+00:00",
+    "state": "on"
+  },
+  "automation.s_light_leave_room": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "S Light Leave Room",
+      "id": "1617126933979",
+      "last_triggered": null,
+      "mode": "single"
+    },
+    "context": {
+      "id": "82e99f75ef1b12ab603f276fe641b9fb",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.s_light_leave_room",
+    "last_changed": "2021-07-06T13:11:22.149776+00:00",
+    "last_updated": "2021-07-06T13:11:22.149776+00:00",
+    "state": "on"
+  },
+  "automation.s_light_low_battery": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "S Light Low Battery",
+      "id": "1619253128167",
+      "last_triggered": "2021-07-07T20:41:07.531993+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "e11d95b58cbec03b896e4f5412873d1f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.s_light_low_battery",
+    "last_changed": "2021-07-06T13:11:22.153350+00:00",
+    "last_updated": "2021-07-07T21:41:07.561450+00:00",
+    "state": "on"
+  },
+  "automation.s_light_off": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "S Light Off",
+      "id": "1617127410331",
+      "last_triggered": "2021-05-20T23:13:55.690702+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "134d92c4942313a5ea7f3329bfc17a79",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.s_light_off",
+    "last_changed": "2021-07-06T13:11:22.150642+00:00",
+    "last_updated": "2021-07-06T13:11:22.150642+00:00",
+    "state": "on"
+  },
+  "automation.shayans_iphone_auto_limit_charging": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Shayans iPhone Auto Limit Charging",
+      "id": "1608361716985",
+      "last_triggered": "2021-05-20T03:30:00.014618+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "77277240cc0eee77d6d86b455e9af35f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.shayans_iphone_auto_limit_charging",
+    "last_changed": "2021-07-06T13:11:22.148425+00:00",
+    "last_updated": "2021-07-06T13:11:22.148425+00:00",
+    "state": "off"
+  },
+  "automation.startup": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Startup",
+      "id": "1598980385303",
+      "last_triggered": "2021-05-20T14:50:51.855650+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "f0ffce6e697f6917a6a5be70b923589d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.startup",
+    "last_changed": "2021-07-06T13:11:22.144568+00:00",
+    "last_updated": "2021-07-06T13:11:22.144568+00:00",
+    "state": "on"
+  },
+  "automation.sunrise": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Sunrise",
+      "id": "1598726770429",
+      "last_triggered": "2021-07-11T00:29:31.352512+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "a49122d0757238a432c0d2e4aa30b8f4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "automation.sunrise",
+    "last_changed": "2021-07-06T13:11:22.142402+00:00",
+    "last_updated": "2021-07-11T00:29:31.439567+00:00",
+    "state": "on"
+  },
+  "binary_sensor.rubys_macbook_air_active": {
+    "attributes": {
+      "Fast User Switched": false,
+      "Idle": false,
+      "Locked": false,
+      "Screen Off": false,
+      "Screensaver": false,
+      "Sleeping": false,
+      "Terminating": true,
+      "friendly_name": "MacBook Air Active",
+      "icon": "mdi:monitor-off"
+    },
+    "context": {
+      "id": "3394203fad44b8e6b8b9774262dd1f5d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.rubys_macbook_air_active",
+    "last_changed": "2021-07-10T15:02:22.228011+00:00",
+    "last_updated": "2021-07-10T15:02:22.228011+00:00",
+    "state": "off"
+  },
+  "binary_sensor.rubys_macbook_air_camera_in_use": {
+    "attributes": {
+      "friendly_name": "MacBook Air Camera In Use",
+      "icon": "mdi:camera-off"
+    },
+    "context": {
+      "id": "71f485e0cdb62363a79de6b28db0b75b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.rubys_macbook_air_camera_in_use",
+    "last_changed": "2021-07-06T13:11:24.795180+00:00",
+    "last_updated": "2021-07-06T13:11:24.795180+00:00",
+    "state": "off"
+  },
+  "binary_sensor.rubys_macbook_air_microphone_in_use": {
+    "attributes": {
+      "friendly_name": "MacBook Air Microphone In Use",
+      "icon": "mdi:microphone-off"
+    },
+    "context": {
+      "id": "4cd96d1329afa57dd582a581ab0ee289",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.rubys_macbook_air_microphone_in_use",
+    "last_changed": "2021-07-06T13:11:24.795630+00:00",
+    "last_updated": "2021-07-06T13:11:24.795630+00:00",
+    "state": "off"
+  },
+  "binary_sensor.shayans_macbook_air_active": {
+    "attributes": {
+      "Fast User Switched": false,
+      "Idle": false,
+      "Locked": false,
+      "Screen Off": false,
+      "Screensaver": false,
+      "Sleeping": false,
+      "Terminating": true,
+      "friendly_name": "Shayan’s MacBook Air Active",
+      "icon": "mdi:monitor-off"
+    },
+    "context": {
+      "id": "4db36606b05110459e12912d8ec150d1",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.shayans_macbook_air_active",
+    "last_changed": "2021-07-08T10:09:40.583428+00:00",
+    "last_updated": "2021-07-08T10:09:40.583428+00:00",
+    "state": "off"
+  },
+  "binary_sensor.shayans_macbook_air_camera_in_use": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air Camera In Use",
+      "icon": "mdi:camera-off"
+    },
+    "context": {
+      "id": "0927165d1e16dde54f56c465de030615",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.shayans_macbook_air_camera_in_use",
+    "last_changed": "2021-07-06T13:11:24.784529+00:00",
+    "last_updated": "2021-07-06T13:11:24.784529+00:00",
+    "state": "off"
+  },
+  "binary_sensor.shayans_macbook_air_microphone_in_use": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air Microphone In Use",
+      "icon": "mdi:microphone"
+    },
+    "context": {
+      "id": "4f9ccec0e1305096515cd0dda3340a2a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.shayans_macbook_air_microphone_in_use",
+    "last_changed": "2021-07-08T10:09:37.016197+00:00",
+    "last_updated": "2021-07-08T10:09:37.016197+00:00",
+    "state": "on"
+  },
+  "binary_sensor.shayans_room_motion": {
+    "attributes": {"friendly_name": "Shayans Room Motion"},
+    "context": {
+      "id": "445e40b106421100d5151bc851f4e791",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.shayans_room_motion",
+    "last_changed": "2021-07-11T06:41:24.712298+00:00",
+    "last_updated": "2021-07-11T06:41:24.712298+00:00",
+    "state": "off"
+  },
+  "binary_sensor.updater": {
+    "attributes": {
+      "friendly_name": "Updater",
+      "newest_version": "2021.7.1",
+      "release_notes": "https://www.home-assistant.io/blog/2021/07/07/release-20217/"
+    },
+    "context": {
+      "id": "37c61d3f9ca3f09c610796f1596388b6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.updater",
+    "last_changed": "2021-07-07T13:11:23.499267+00:00",
+    "last_updated": "2021-07-09T13:11:23.253579+00:00",
+    "state": "on"
+  },
+  "device_tracker.9c_fc_01_63_9b_13": {
+    "attributes": {
+      "friendly_name": "Rubys-iPhone",
+      "icon": "mdi:cellphone-iphone",
+      "source_type": null
+    },
+    "context": {
+      "id": "4e8245de86bb03b929e0ebbcb5006c19",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.9c_fc_01_63_9b_13",
+    "last_changed": "2021-07-06T13:11:22.173296+00:00",
+    "last_updated": "2021-07-06T13:11:22.173296+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.android_78059a4019f17347": {
+    "attributes": {
+      "friendly_name": "Moto G5s Plus",
+      "icon": "mdi:cellphone-android",
+      "source_type": null
+    },
+    "context": {
+      "id": "f47fbecb89b96d783c4273098507df4f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.android_78059a4019f17347",
+    "last_changed": "2021-07-06T13:11:22.173681+00:00",
+    "last_updated": "2021-07-06T13:11:22.173681+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.android_8b253bc8c1d73dab": {
+    "attributes": {
+      "friendly_name": "OnePlus X",
+      "icon": "mdi:cellphone",
+      "source_type": null
+    },
+    "context": {
+      "id": "1450012d60030fabed5225bdfd7304bc",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.android_8b253bc8c1d73dab",
+    "last_changed": "2021-07-06T13:11:22.174061+00:00",
+    "last_updated": "2021-07-06T13:11:22.174061+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.b8_b2_f8_80_b1_ec": {
+    "attributes": {
+      "friendly_name": "Shayans-iPhone",
+      "icon": "mdi:cellphone-iphone",
+      "source_type": null
+    },
+    "context": {
+      "id": "97375a2305747f0ecebb11abccf64c2e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.b8_b2_f8_80_b1_ec",
+    "last_changed": "2021-07-06T13:11:22.172911+00:00",
+    "last_updated": "2021-07-06T13:11:22.172911+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.desktop_tlbcfe6": {
+    "attributes": {"friendly_name": "DESKTOP-TLBCFE6", "source_type": null},
+    "context": {
+      "id": "8431048b5b82b74d5b85f9ac73ef1086",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.desktop_tlbcfe6",
+    "last_changed": "2021-07-06T13:11:22.179440+00:00",
+    "last_updated": "2021-07-06T13:11:22.179440+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.home": {
+    "attributes": {
+      "friendly_name": "home",
+      "icon": "mdi:server",
+      "source_type": null
+    },
+    "context": {
+      "id": "1630d2b5856747a65efc974c1241a9a8",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.home",
+    "last_changed": "2021-07-06T13:11:22.171981+00:00",
+    "last_updated": "2021-07-06T13:11:22.171981+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.iphone_2": {
+    "attributes": {
+      "altitude": 892,
+      "battery_level": 64,
+      "friendly_name": "Rubys iPhone",
+      "gps_accuracy": 165,
+      "latitude": 12.888797766122714,
+      "longitude": 77.61024474838312,
+      "source_type": "gps",
+      "vertical_accuracy": 10
+    },
+    "context": {
+      "id": "7a4a7890f34234cb100dc11807f6bc34",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.iphone_2",
+    "last_changed": "2021-07-09T14:33:56.885477+00:00",
+    "last_updated": "2021-07-09T14:33:56.885477+00:00",
+    "state": "home"
+  },
+  "device_tracker.m2006c3li_redmi9a": {
+    "attributes": {"friendly_name": "M2006C3LI-Redmi9A", "source_type": null},
+    "context": {
+      "id": "459dba43ca74b5608caed5757233f930",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.m2006c3li_redmi9a",
+    "last_changed": "2021-07-06T13:11:22.180956+00:00",
+    "last_updated": "2021-07-06T13:11:22.180956+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.redmi4_redmi": {
+    "attributes": {"friendly_name": "Redmi4-Redmi", "source_type": null},
+    "context": {
+      "id": "c01d9c4b269839f9480410605d961048",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.redmi4_redmi",
+    "last_changed": "2021-07-06T13:11:22.180198+00:00",
+    "last_updated": "2021-07-06T13:11:22.180198+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.ruby_pc": {
+    "attributes": {"friendly_name": "ruby-pc", "source_type": null},
+    "context": {
+      "id": "87df0fa4487791f54fc3cffcb6ba1c53",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.ruby_pc",
+    "last_changed": "2021-07-06T13:11:22.174440+00:00",
+    "last_updated": "2021-07-06T13:11:22.174440+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.rubys_macbook_air_2": {
+    "attributes": {
+      "altitude": 892.0150146484375,
+      "battery_level": 60,
+      "friendly_name": "MacBook Air",
+      "gps_accuracy": 65,
+      "latitude": 12.888835538406203,
+      "longitude": 77.61030351081324,
+      "source_type": "gps",
+      "vertical_accuracy": 29
+    },
+    "context": {
+      "id": "dbe444b6272ca04a6fc6661bf3888186",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.rubys_macbook_air_2",
+    "last_changed": "2021-07-10T14:15:42.080653+00:00",
+    "last_updated": "2021-07-10T14:15:42.080653+00:00",
+    "state": "home"
+  },
+  "device_tracker.shayans_air": {
+    "attributes": {
+      "friendly_name": "Shayans-Air",
+      "icon": "mdi:laptop-mac",
+      "source_type": null
+    },
+    "context": {
+      "id": "9f4d4cf6033f60918cf4da8a1018cd44",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.shayans_air",
+    "last_changed": "2021-07-06T13:11:22.172505+00:00",
+    "last_updated": "2021-07-06T13:11:22.172505+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.shayans_iphone": {
+    "attributes": {"friendly_name": "Shayans-iPhone", "source_type": null},
+    "context": {
+      "id": "1968a170d3cbb5f416dfb35966d8afa4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.shayans_iphone",
+    "last_changed": "2021-07-06T13:11:22.180578+00:00",
+    "last_updated": "2021-07-06T13:11:22.180578+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.shayans_iphone_3": {
+    "attributes": {
+      "altitude": 892.6977233886719,
+      "battery_level": 47,
+      "friendly_name": "Shayan’s iPhone",
+      "gps_accuracy": 65,
+      "latitude": 12.888778686523438,
+      "longitude": 77.61019464258796,
+      "source_type": "gps",
+      "vertical_accuracy": 16
+    },
+    "context": {
+      "id": "7730c2a5f3036ca027e2188af71b8d9c",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.shayans_iphone_3",
+    "last_changed": "2021-07-06T13:11:24.777383+00:00",
+    "last_updated": "2021-07-06T13:11:24.777383+00:00",
+    "state": "home"
+  },
+  "device_tracker.shayans_macbook_air_2": {
+    "attributes": {
+      "altitude": 892.9788818359375,
+      "battery_level": 98,
+      "friendly_name": "Shayan’s MacBook Air",
+      "gps_accuracy": 65,
+      "latitude": 12.888648515597465,
+      "longitude": 77.61023612348018,
+      "source_type": "gps",
+      "vertical_accuracy": 29
+    },
+    "context": {
+      "id": "ea00ea4630788b2844907d6f8cfce8c0",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.shayans_macbook_air_2",
+    "last_changed": "2021-07-08T10:09:36.935396+00:00",
+    "last_updated": "2021-07-08T10:09:36.935396+00:00",
+    "state": "home"
+  },
+  "device_tracker.tasneem_pc": {
+    "attributes": {"friendly_name": "Tasneem-PC", "source_type": null},
+    "context": {
+      "id": "2d27c95b39f6781280769d9762850223",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.tasneem_pc",
+    "last_changed": "2021-07-06T13:11:22.174821+00:00",
+    "last_updated": "2021-07-06T13:11:22.174821+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.tasneem_pc_2": {
+    "attributes": {"friendly_name": "Tasneem-PC", "source_type": null},
+    "context": {
+      "id": "89a912d0ffa7a7d92ed8b632daaff1c6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.tasneem_pc_2",
+    "last_changed": "2021-07-06T13:11:22.178564+00:00",
+    "last_updated": "2021-07-06T13:11:22.178564+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.ubuntu": {
+    "attributes": {"friendly_name": "ubuntu", "source_type": null},
+    "context": {
+      "id": "09d11ab27c8b3693b6468bcbaeb249c6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.ubuntu",
+    "last_changed": "2021-07-06T13:11:22.175658+00:00",
+    "last_updated": "2021-07-06T13:11:22.175658+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.unknown": {
+    "attributes": {"friendly_name": "Unknown", "source_type": null},
+    "context": {
+      "id": "02b9448afb4d1524199245d63030ed54",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.unknown",
+    "last_changed": "2021-07-06T13:11:22.175205+00:00",
+    "last_updated": "2021-07-06T13:11:22.175205+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.unknown_2": {
+    "attributes": {"friendly_name": "Unknown", "source_type": null},
+    "context": {
+      "id": "cb38488e06d396c365a68beb28e14d5f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.unknown_2",
+    "last_changed": "2021-07-06T13:11:22.179822+00:00",
+    "last_updated": "2021-07-06T13:11:22.179822+00:00",
+    "state": "not_home"
+  },
+  "device_tracker.win_ipgt23jem3p": {
+    "attributes": {"friendly_name": "WIN-IPGT23JEM3P", "source_type": null},
+    "context": {
+      "id": "a64304ca5dc0be0b732cbb237dee509e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.win_ipgt23jem3p",
+    "last_changed": "2021-07-06T13:11:22.179051+00:00",
+    "last_updated": "2021-07-06T13:11:22.179051+00:00",
+    "state": "not_home"
+  },
+  "input_boolean.s_light_lock": {
+    "attributes": {"editable": true, "friendly_name": "S Light Lock"},
+    "context": {
+      "id": "fa0468a4f76e71ad386bf164dfc81de0",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "input_boolean.s_light_lock",
+    "last_changed": "2021-07-06T13:11:21.731722+00:00",
+    "last_updated": "2021-07-06T13:11:21.731722+00:00",
+    "state": "off"
+  },
+  "input_boolean.shayans_iphone_limit_charge": {
+    "attributes": {
+      "editable": true,
+      "friendly_name": "Shayans iPhone Limit Charge",
+      "icon": "mdi:power-plug-off"
+    },
+    "context": {
+      "id": "5b41b664f263d6398020253e48359cf7",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "input_boolean.shayans_iphone_limit_charge",
+    "last_changed": "2021-07-06T13:11:21.731200+00:00",
+    "last_updated": "2021-07-06T13:11:21.731200+00:00",
+    "state": "on"
+  },
+  "persistent_notification.http_login": {
+    "attributes": {
+      "friendly_name": "Login attempt failed",
+      "message": "Login attempt or request with invalid authentication from fe80::1ce7:aaf8:d776:7c08 (fe80::1ce7:aaf8:d776:7c08). See the log for details.",
+      "title": "Login attempt failed"
+    },
+    "context": {
+      "id": "cb6c6649b920857f0f20158b9e0098ce",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "persistent_notification.http_login",
+    "last_changed": "2021-07-10T15:31:59.325144+00:00",
+    "last_updated": "2021-07-11T06:48:40.154337+00:00",
+    "state": "notifying"
+  },
+  "person.dad": {
+    "attributes": {"editable": false, "friendly_name": "Dad", "id": "dad"},
+    "context": {
+      "id": "1d8f1e40ae1113d6057cb9c7249683ba",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "person.dad",
+    "last_changed": "2021-07-06T13:11:16.715120+00:00",
+    "last_updated": "2021-07-06T13:11:30.736327+00:00",
+    "state": "unknown"
+  },
+  "person.mom": {
+    "attributes": {"editable": false, "friendly_name": "Mom", "id": "mom"},
+    "context": {
+      "id": "15a7aaead18607b645ca583d62e70fcc",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "person.mom",
+    "last_changed": "2021-07-06T13:11:16.714731+00:00",
+    "last_updated": "2021-07-06T13:11:30.736092+00:00",
+    "state": "unknown"
+  },
+  "person.ruby": {
+    "attributes": {
+      "editable": false,
+      "friendly_name": "Ruby",
+      "id": "ruby",
+      "source": "device_tracker.9c_fc_01_63_9b_13"
+    },
+    "context": {
+      "id": "29a3a20648504584b8ea2a3ece4b6b48",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "person.ruby",
+    "last_changed": "2021-07-06T13:11:16.714322+00:00",
+    "last_updated": "2021-07-06T13:11:30.735843+00:00",
+    "state": "not_home"
+  },
+  "person.shayan": {
+    "attributes": {
+      "editable": false,
+      "friendly_name": "Shayan",
+      "gps_accuracy": 65,
+      "id": "shayan",
+      "latitude": 12.888648515597465,
+      "longitude": 77.61023612348018,
+      "source": "device_tracker.shayans_macbook_air_2",
+      "user_id": "43d61be10e784792935e95a56d97f4dc"
+    },
+    "context": {
+      "id": "030e00070ce756589bc9724508f6726e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "person.shayan",
+    "last_changed": "2021-07-06T13:11:16.713775+00:00",
+    "last_updated": "2021-07-08T10:09:36.997495+00:00",
+    "state": "home"
+  },
+  "scene.shayan_good_night": {
+    "attributes": {
+      "entity_id": [],
+      "friendly_name": "Shayan Good Night",
+      "icon": "mdi:weather-night",
+      "id": "1598725772803"
+    },
+    "context": {
+      "id": "f0b8737de776cae32dd2971ee85904f2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "scene.shayan_good_night",
+    "last_changed": "2021-07-06T13:11:20.347026+00:00",
+    "last_updated": "2021-07-06T13:11:20.347026+00:00",
+    "state": "scening"
+  },
+  "scene.shayan_leave_room": {
+    "attributes": {
+      "entity_id": [],
+      "friendly_name": "Shayan Leave Room",
+      "icon": "mdi:exit-to-app",
+      "id": "1598725908570"
+    },
+    "context": {
+      "id": "b38477015b08d63d578de6acc9e23420",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "scene.shayan_leave_room",
+    "last_changed": "2021-07-06T13:11:20.348938+00:00",
+    "last_updated": "2021-07-06T13:11:20.348938+00:00",
+    "state": "scening"
+  },
+  "scene.shayan_main_scene": {
+    "attributes": {
+      "entity_id": [],
+      "friendly_name": "Shayan Main Scene",
+      "icon": "mdi:coffee",
+      "id": "1598725844297"
+    },
+    "context": {
+      "id": "2900dd8adee4d973ea32321ed486d6cd",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "scene.shayan_main_scene",
+    "last_changed": "2021-07-06T13:11:20.348039+00:00",
+    "last_updated": "2021-07-06T13:11:20.348039+00:00",
+    "state": "scening"
+  },
+  "script.change_gas": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Change Gas",
+      "icon": "mdi:gas-cylinder",
+      "last_triggered": null,
+      "mode": "single"
+    },
+    "context": {
+      "id": "9e2a02cf2afad984b6b0ac122d09074a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.change_gas",
+    "last_changed": "2021-07-06T13:11:25.118608+00:00",
+    "last_updated": "2021-07-06T13:11:25.118608+00:00",
+    "state": "off"
+  },
+  "script.door_lights": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Door Lights",
+      "last_triggered": null,
+      "mode": "single"
+    },
+    "context": {
+      "id": "ee7145c09fa6fc89f88e599612ec07ce",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.door_lights",
+    "last_changed": "2021-07-06T13:11:25.119849+00:00",
+    "last_updated": "2021-07-06T13:11:25.119849+00:00",
+    "state": "off"
+  },
+  "script.main_scene": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Main Scene",
+      "icon": "mdi:coffee",
+      "last_triggered": "2021-07-11T06:40:00.080203+00:00",
+      "mode": "single"
+    },
+    "context": {
+      "id": "bc80f07aeb0824399c93e7be0898f1cc",
+      "parent_id": "ce55a8b39dfffa4beb22c538e7a80bc5",
+      "user_id": null
+    },
+    "entity_id": "script.main_scene",
+    "last_changed": "2021-07-11T06:40:00.098051+00:00",
+    "last_updated": "2021-07-11T06:40:00.098051+00:00",
+    "state": "off"
+  },
+  "script.notify_ruby": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Notify Ruby",
+      "icon": "mdi:face-woman",
+      "last_triggered": null,
+      "max": 3,
+      "mode": "parallel"
+    },
+    "context": {
+      "id": "b85c8d1824a7ecfaa3a04858227cc3c5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.notify_ruby",
+    "last_changed": "2021-07-06T13:11:25.117983+00:00",
+    "last_updated": "2021-07-06T13:11:25.117983+00:00",
+    "state": "off"
+  },
+  "script.notify_shayan": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Notify Shayan",
+      "icon": "mdi:face",
+      "last_triggered": null,
+      "max": 3,
+      "mode": "parallel"
+    },
+    "context": {
+      "id": "f008da59d88d5887b717be41820a97ec",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.notify_shayan",
+    "last_changed": "2021-07-06T13:11:25.117563+00:00",
+    "last_updated": "2021-07-06T13:11:25.117563+00:00",
+    "state": "off"
+  },
+  "script.open_milk": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Open Milk",
+      "icon": "mdi:cow",
+      "last_triggered": null,
+      "mode": "single"
+    },
+    "context": {
+      "id": "25ae58127ebe6b4fa4002712696224f2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.open_milk",
+    "last_changed": "2021-07-06T13:11:25.118304+00:00",
+    "last_updated": "2021-07-06T13:11:25.118304+00:00",
+    "state": "off"
+  },
+  "script.shayans_iphone_done_charging": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Shayans iPhone Done Charging",
+      "icon": "mdi:power-plug-off",
+      "last_triggered": null,
+      "mode": "single"
+    },
+    "context": {
+      "id": "ccfa95cd39e4268bb7a74c75d484b40c",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.shayans_iphone_done_charging",
+    "last_changed": "2021-07-06T13:11:25.118916+00:00",
+    "last_updated": "2021-07-06T13:11:25.118916+00:00",
+    "state": "off"
+  },
+  "script.side_table_lights": {
+    "attributes": {
+      "current": 0,
+      "friendly_name": "Side Table Lights",
+      "icon": "mdi:lightbulb-multiple",
+      "last_triggered": null,
+      "max": 10,
+      "mode": "parallel"
+    },
+    "context": {
+      "id": "fc97b73b4fc1f54c020caa2699168cfd",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "script.side_table_lights",
+    "last_changed": "2021-07-06T13:11:25.119227+00:00",
+    "last_updated": "2021-07-06T13:11:25.119227+00:00",
+    "state": "off"
+  },
+  "sensor.bedlight_power": {
+    "attributes": {
+      "friendly_name": "Bedlight Power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "fad317a31f25bd72cd8ff69085770a0d",
+      "parent_id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "user_id": null
+    },
+    "entity_id": "sensor.bedlight_power",
+    "last_changed": "2021-07-11T02:06:22.035656+00:00",
+    "last_updated": "2021-07-11T02:06:22.035656+00:00",
+    "state": "0"
+  },
+  "sensor.bedroom_energy_daily": {
+    "attributes": {
+      "device_class": "energy",
+      "friendly_name": "bedroom_energy_daily",
+      "icon": "mdi:counter",
+      "last_period": "0.69",
+      "last_reset": "2021-07-10T18:30:00.013498+00:00",
+      "meter_period": "daily",
+      "source": "sensor.bedroom_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "7506142e1bf29deabacfc198dda6eb31",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.bedroom_energy_daily",
+    "last_changed": "2021-07-11T02:06:21.980355+00:00",
+    "last_updated": "2021-07-11T02:06:21.980355+00:00",
+    "state": "0.19"
+  },
+  "sensor.bedroom_energy_hourly": {
+    "attributes": {
+      "device_class": "energy",
+      "friendly_name": "bedroom_energy_hourly",
+      "icon": "mdi:counter",
+      "last_period": "0",
+      "last_reset": "2021-07-11T06:30:00.007165+00:00",
+      "meter_period": "hourly",
+      "source": "sensor.bedroom_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "8ce682696aba81eacb2fcab7a139af40",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.bedroom_energy_hourly",
+    "last_changed": "2021-07-11T02:30:00.006518+00:00",
+    "last_updated": "2021-07-11T06:30:00.007399+00:00",
+    "state": "0"
+  },
+  "sensor.bedroom_energy_monthly": {
+    "attributes": {
+      "device_class": "energy",
+      "friendly_name": "bedroom_energy_monthly",
+      "icon": "mdi:counter",
+      "last_period": "24.21",
+      "last_reset": "2021-06-30T18:30:00.021546+00:00",
+      "meter_period": "monthly",
+      "source": "sensor.bedroom_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "9949393ca19c0a57e398f59d18a45c9b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.bedroom_energy_monthly",
+    "last_changed": "2021-07-11T02:06:21.980792+00:00",
+    "last_updated": "2021-07-11T02:06:21.980792+00:00",
+    "state": "7.89"
+  },
+  "sensor.bedroom_energy_spent": {
+    "attributes": {
+      "friendly_name": "bedroom_energy_spent",
+      "icon": "mdi:chart-histogram",
+      "source": "sensor.bedroom_power",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "82e0221f6e18812a6a4466ae155fab79",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.bedroom_energy_spent",
+    "last_changed": "2021-07-11T02:06:21.964357+00:00",
+    "last_updated": "2021-07-11T02:06:21.964357+00:00",
+    "state": "3797.95"
+  },
+  "sensor.bedroom_power": {
+    "attributes": {
+      "friendly_name": "Bedroom Power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "fad317a31f25bd72cd8ff69085770a0d",
+      "parent_id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "user_id": null
+    },
+    "entity_id": "sensor.bedroom_power",
+    "last_changed": "2021-07-11T02:06:22.038214+00:00",
+    "last_updated": "2021-07-11T02:06:22.038214+00:00",
+    "state": "0.0"
+  },
+  "sensor.charger_power": {
+    "attributes": {
+      "friendly_name": "Charger Power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "00e95f0e3fde173a77102650be7201e5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.charger_power",
+    "last_changed": "2021-07-06T13:11:30.780985+00:00",
+    "last_updated": "2021-07-06T13:11:30.780985+00:00",
+    "state": "0"
+  },
+  "sensor.double_light_power": {
+    "attributes": {
+      "friendly_name": "Double Light Power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "51e0f7d219b0096087eccc7a8700a792",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.double_light_power",
+    "last_changed": "2021-07-10T17:51:02.666345+00:00",
+    "last_updated": "2021-07-10T17:51:02.666345+00:00",
+    "state": "0"
+  },
+  "sensor.energy_cost_monthly": {
+    "attributes": {
+      "friendly_name": "Energy Cost Monthly",
+      "unit_of_measurement": "₹"
+    },
+    "context": {
+      "id": "1be8580aee725edfd37bab6713e58add",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.energy_cost_monthly",
+    "last_changed": "2021-07-11T02:06:21.987466+00:00",
+    "last_updated": "2021-07-11T02:06:21.987466+00:00",
+    "state": "50.84"
+  },
+  "sensor.fan_power": {
+    "attributes": {"friendly_name": "Fan Power", "unit_of_measurement": "W"},
+    "context": {
+      "id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.fan_power",
+    "last_changed": "2021-07-11T02:06:21.952562+00:00",
+    "last_updated": "2021-07-11T02:06:21.952562+00:00",
+    "state": "0"
+  },
+  "sensor.hacs": {
+    "attributes": {
+      "friendly_name": "hacs",
+      "icon": "hacs:hacs",
+      "repositories": [],
+      "unit_of_measurement": "pending update(s)"
+    },
+    "context": {
+      "id": "2943383e19e9613f159bda281a9235ea",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.hacs",
+    "last_changed": "2021-07-06T13:11:46.870265+00:00",
+    "last_updated": "2021-07-06T13:11:46.870265+00:00",
+    "state": "2"
+  },
+  "sensor.hp_laserjet_p2035": {
+    "attributes": {
+      "device_uri": "usb://HP/LaserJet%20P2035?serial=RZ45ZYX",
+      "friendly_name": "HP_LaserJet_P2035",
+      "icon": "mdi:printer",
+      "printer_info": "HP LaserJet P2035",
+      "printer_is_shared": true,
+      "printer_location": "home",
+      "printer_model": "HP LaserJet P2035 Foomatic/foo2zjs-z1 (recommended)",
+      "printer_state_message": "",
+      "printer_state_reason": [],
+      "printer_type": 8425476,
+      "printer_uri_supported": "ipp://127.0.0.1:631/printers/HP_LaserJet_P2035"
+    },
+    "context": {
+      "id": "a0531489ba910660c72ced5e38030937",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.hp_laserjet_p2035",
+    "last_changed": "2021-07-06T13:11:22.110093+00:00",
+    "last_updated": "2021-07-06T13:11:22.110093+00:00",
+    "state": "idle"
+  },
+  "sensor.hp_laserjet_p2035_foomatic_foo2zjs_z1_recommended_2": {
+    "attributes": {
+      "command_set": "ACL",
+      "friendly_name": "HP LaserJet P2035 Foomatic/foo2zjs-z1 (recommended)",
+      "icon": "mdi:printer",
+      "info": "HP LaserJet P2035",
+      "location": "home",
+      "serial": null,
+      "state_message": "",
+      "state_reason": null,
+      "uri_supported": "ipp://192.168.0.6:631/printers/HP_LaserJet_P2035"
+    },
+    "context": {
+      "id": "5ff8d00ea5be4d872a672231847d4872",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.hp_laserjet_p2035_foomatic_foo2zjs_z1_recommended_2",
+    "last_changed": "2021-07-06T13:11:24.879441+00:00",
+    "last_updated": "2021-07-06T13:11:24.879441+00:00",
+    "state": "idle"
+  },
+  "sensor.iphone_activity": {
+    "attributes": {
+      "Confidence": "High",
+      "Types": [],
+      "friendly_name": "Rubys iPhone Activity",
+      "icon": "mdi:human-male"
+    },
+    "context": {
+      "id": "60a2b88f27ced1b71d9f80378705f23f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_activity",
+    "last_changed": "2021-07-09T13:23:49.782125+00:00",
+    "last_updated": "2021-07-09T13:23:49.782125+00:00",
+    "state": "Stationary"
+  },
+  "sensor.iphone_average_active_pace": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Average Active Pace",
+      "icon": "mdi:speedometer",
+      "unit_of_measurement": "m/s"
+    },
+    "context": {
+      "id": "8528e0cd921c6864fa1835220957bf96",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_average_active_pace",
+    "last_changed": "2021-07-06T13:11:24.799303+00:00",
+    "last_updated": "2021-07-06T13:11:24.799303+00:00",
+    "state": "1"
+  },
+  "sensor.iphone_battery_level": {
+    "attributes": {
+      "device_class": "battery",
+      "friendly_name": "Rubys iPhone Battery Level",
+      "icon": "mdi:battery-60",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "bdce80b576c32dc807fb23f730bc5b98",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_battery_level",
+    "last_changed": "2021-07-09T14:33:57.207007+00:00",
+    "last_updated": "2021-07-09T14:33:57.207007+00:00",
+    "state": "64"
+  },
+  "sensor.iphone_battery_state_2": {
+    "attributes": {
+      "Low Power Mode": false,
+      "device_class": "battery",
+      "friendly_name": "Rubys iPhone Battery State",
+      "icon": "mdi:battery-60"
+    },
+    "context": {
+      "id": "92b828cc6fc760042cf3d6323b66e39d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_battery_state_2",
+    "last_changed": "2021-07-07T18:30:14.832238+00:00",
+    "last_updated": "2021-07-09T14:25:15.237640+00:00",
+    "state": "Not Charging"
+  },
+  "sensor.iphone_bssid": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone BSSID",
+      "icon": "mdi:wifi-star"
+    },
+    "context": {
+      "id": "cc334cf7482cf4e253889fb57a07db0e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_bssid",
+    "last_changed": "2021-07-09T14:25:15.241574+00:00",
+    "last_updated": "2021-07-09T14:25:15.241574+00:00",
+    "state": "c0:25:e9:5a:8d:77"
+  },
+  "sensor.iphone_connection_type": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Connection Type",
+      "icon": "mdi:wifi"
+    },
+    "context": {
+      "id": "7938663b0c3b34bdc35849d709f9b09c",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_connection_type",
+    "last_changed": "2021-07-06T13:11:24.802014+00:00",
+    "last_updated": "2021-07-06T13:11:24.802014+00:00",
+    "state": "Wi-Fi"
+  },
+  "sensor.iphone_distance": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Distance",
+      "icon": "mdi:hiking",
+      "unit_of_measurement": "m"
+    },
+    "context": {
+      "id": "d6c43b9824cb2375fd2f5c51edcfad15",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_distance",
+    "last_changed": "2021-07-07T18:30:14.822336+00:00",
+    "last_updated": "2021-07-07T18:30:14.822336+00:00",
+    "state": "0"
+  },
+  "sensor.iphone_floors_ascended": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Floors Ascended",
+      "icon": "mdi:stairs-up",
+      "unit_of_measurement": "floors"
+    },
+    "context": {
+      "id": "ef9442702bb26dbaa774096b907699c7",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_floors_ascended",
+    "last_changed": "2021-07-07T18:30:14.824350+00:00",
+    "last_updated": "2021-07-07T18:30:14.824350+00:00",
+    "state": "0"
+  },
+  "sensor.iphone_floors_descended": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Floors Descended",
+      "icon": "mdi:stairs-down",
+      "unit_of_measurement": "floors"
+    },
+    "context": {
+      "id": "5d5a3bef02df3ce12992abca2862bd29",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_floors_descended",
+    "last_changed": "2021-07-07T18:30:14.826587+00:00",
+    "last_updated": "2021-07-07T18:30:14.826587+00:00",
+    "state": "0"
+  },
+  "sensor.iphone_geocoded_location": {
+    "attributes": {
+      "Administrative Area": "KA",
+      "Areas Of Interest": "N/A",
+      "Country": "India",
+      "ISO Country Code": "IN",
+      "Inland Water": "N/A",
+      "Locality": "Bengaluru",
+      "Location": [],
+      "Name": "1st Cross Road",
+      "Ocean": "N/A",
+      "Postal Code": "560076",
+      "Sub Administrative Area": "Bengaluru Urban",
+      "Sub Locality": "Mulki Sundar Ram Shetty Nagar",
+      "Sub Thoroughfare": "N/A",
+      "Thoroughfare": "1st Cross Road",
+      "Time Zone": "Asia/Kolkata",
+      "Zones": [],
+      "friendly_name": "Rubys iPhone Geocoded Location",
+      "icon": "mdi:map"
+    },
+    "context": {
+      "id": "73d26e32b98433051a9d6b0e10ff8d23",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_geocoded_location",
+    "last_changed": "2021-07-06T13:11:24.802947+00:00",
+    "last_updated": "2021-07-09T14:33:57.209249+00:00",
+    "state": "1st Cross Road Bengaluru 560076 KA India"
+  },
+  "sensor.iphone_last_update_trigger": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Last Update Trigger",
+      "icon": "mdi:cellphone-wireless"
+    },
+    "context": {
+      "id": "74008fa420df10a161df85514ddaa461",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_last_update_trigger",
+    "last_changed": "2021-07-09T14:25:15.245655+00:00",
+    "last_updated": "2021-07-09T14:25:15.245655+00:00",
+    "state": "Background Fetch"
+  },
+  "sensor.iphone_sim_1": {
+    "attributes": {
+      "Allows VoIP": true,
+      "Carrier ID": "0000000100000001",
+      "Carrier Name": "AirTel",
+      "Current Radio Technology": "Long-Term Evolution (LTE)",
+      "ISO Country Code": "in",
+      "Mobile Country Code": "404",
+      "Mobile Network Code": "45",
+      "friendly_name": "Rubys iPhone SIM 1",
+      "icon": "mdi:sim"
+    },
+    "context": {
+      "id": "df0c1e2dfe008017d2cdc309fadd2187",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_sim_1",
+    "last_changed": "2021-07-06T13:11:24.802493+00:00",
+    "last_updated": "2021-07-06T13:11:24.802493+00:00",
+    "state": "AirTel"
+  },
+  "sensor.iphone_ssid": {
+    "attributes": {"friendly_name": "Rubys iPhone SSID", "icon": "mdi:wifi"},
+    "context": {
+      "id": "8cbc978b1c95f223a638768df422c381",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_ssid",
+    "last_changed": "2021-07-06T13:11:24.801086+00:00",
+    "last_updated": "2021-07-06T13:11:24.801086+00:00",
+    "state": "Shayan 5Ghz"
+  },
+  "sensor.iphone_steps": {
+    "attributes": {
+      "friendly_name": "Rubys iPhone Steps",
+      "icon": "mdi:walk",
+      "unit_of_measurement": "steps"
+    },
+    "context": {
+      "id": "e81da4907ba7932f17af3770773168da",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_steps",
+    "last_changed": "2021-07-07T18:30:14.828252+00:00",
+    "last_updated": "2021-07-07T18:30:14.828252+00:00",
+    "state": "0"
+  },
+  "sensor.iphone_storage": {
+    "attributes": {
+      "Available": "29.10 GB",
+      "Available (Important)": "37.04 GB",
+      "Available (Opportunistic)": "35.76 GB",
+      "Total": "63.99 GB",
+      "friendly_name": "Rubys iPhone Storage",
+      "icon": "mdi:database",
+      "unit_of_measurement": "% available"
+    },
+    "context": {
+      "id": "bbac812ffa73d86157e1604bc4109038",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.iphone_storage",
+    "last_changed": "2021-07-09T14:25:15.239599+00:00",
+    "last_updated": "2021-07-09T14:25:15.239599+00:00",
+    "state": "55.88"
+  },
+  "sensor.macbook_air_connection_type": {
+    "attributes": {
+      "Hardware Address": "14:c2:13:09:46:dc",
+      "Name": "Wi-Fi",
+      "friendly_name": "MacBook Air Connection Type",
+      "icon": "mdi:wifi"
+    },
+    "context": {
+      "id": "b83a49e674382e160aac6173e3bbfc9c",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.macbook_air_connection_type",
+    "last_changed": "2021-07-06T13:11:24.792587+00:00",
+    "last_updated": "2021-07-06T13:11:24.792587+00:00",
+    "state": "Wi-Fi"
+  },
+  "sensor.macbook_air_displays": {
+    "attributes": {
+      "Display IDs": [],
+      "Display Names": [],
+      "friendly_name": "MacBook Air Displays",
+      "icon": "mdi:monitor-multiple"
+    },
+    "context": {
+      "id": "7144f1ac06b2dee21e017d98622415e5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.macbook_air_displays",
+    "last_changed": "2021-07-06T13:11:24.793314+00:00",
+    "last_updated": "2021-07-06T13:11:24.793314+00:00",
+    "state": "1"
+  },
+  "sensor.macbook_air_frontmost_app": {
+    "attributes": {
+      "Bundle Identifier": "com.apple.reminders",
+      "Is Hidden": false,
+      "Launch Date": "2021-07-10T15:02:13Z",
+      "Owns Menu Bar": true,
+      "friendly_name": "MacBook Air Frontmost App",
+      "icon": "mdi:traffic-light"
+    },
+    "context": {
+      "id": "fc3957ad346d761c4cb5001edf7ddc85",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.macbook_air_frontmost_app",
+    "last_changed": "2021-07-10T15:02:22.328867+00:00",
+    "last_updated": "2021-07-10T15:02:22.328867+00:00",
+    "state": "Reminders"
+  },
+  "sensor.macbook_air_primary_display_id": {
+    "attributes": {
+      "friendly_name": "MacBook Air Primary Display ID",
+      "icon": "mdi:monitor-star"
+    },
+    "context": {
+      "id": "207d1677ebc0bb929c1612b98f063fa2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.macbook_air_primary_display_id",
+    "last_changed": "2021-07-06T13:11:24.793807+00:00",
+    "last_updated": "2021-07-06T13:11:24.793807+00:00",
+    "state": "77E200AD-B0E6-0317-4BBF-F8B53DA3952C"
+  },
+  "sensor.macbook_air_primary_display_name": {
+    "attributes": {
+      "friendly_name": "MacBook Air Primary Display Name",
+      "icon": "mdi:monitor-star"
+    },
+    "context": {
+      "id": "8698412a1f14c74a6b167ba33d20594d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.macbook_air_primary_display_name",
+    "last_changed": "2021-07-06T13:11:24.794268+00:00",
+    "last_updated": "2021-07-06T13:11:24.794268+00:00",
+    "state": "Built-in Display"
+  },
+  "sensor.measured_current": {
+    "attributes": {
+      "friendly_name": "Measured Current",
+      "icon": "mdi:flash",
+      "unit_of_measurement": "A"
+    },
+    "context": {
+      "id": "66becaf91001daece60458e6f75fd344",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.measured_current",
+    "last_changed": "2021-07-06T13:11:24.916232+00:00",
+    "last_updated": "2021-07-06T13:11:24.916232+00:00",
+    "state": "unavailable"
+  },
+  "sensor.printer_power": {
+    "attributes": {
+      "friendly_name": "Printer Power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "d188155af8fe56a3f001d846b44d3f41",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.printer_power",
+    "last_changed": "2021-07-06T13:11:30.783915+00:00",
+    "last_updated": "2021-07-06T13:11:30.783915+00:00",
+    "state": "0"
+  },
+  "sensor.rubys_macbook_air_active_camera": {
+    "attributes": {
+      "Active Camera": [],
+      "All Camera": [],
+      "friendly_name": "MacBook Air Active Camera",
+      "icon": "mdi:camera-off"
+    },
+    "context": {
+      "id": "7f9b7adae244dbfa5a3009b0c0eeef4e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_active_camera",
+    "last_changed": "2021-07-06T13:11:24.790201+00:00",
+    "last_updated": "2021-07-06T13:11:24.790201+00:00",
+    "state": "Inactive"
+  },
+  "sensor.rubys_macbook_air_active_microphone": {
+    "attributes": {
+      "Active Microphone": [],
+      "All Microphone": [],
+      "friendly_name": "MacBook Air Active Microphone",
+      "icon": "mdi:microphone-off"
+    },
+    "context": {
+      "id": "acd2ba1a7107ecfe9f6c1493e6f176d4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_active_microphone",
+    "last_changed": "2021-07-06T13:11:24.790645+00:00",
+    "last_updated": "2021-07-06T13:11:24.790645+00:00",
+    "state": "Inactive"
+  },
+  "sensor.rubys_macbook_air_bssid": {
+    "attributes": {
+      "friendly_name": "MacBook Air BSSID",
+      "icon": "mdi:wifi-star"
+    },
+    "context": {
+      "id": "8be415affe7d1f2c2ac5ec2fb2cb4b97",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_bssid",
+    "last_changed": "2021-07-10T14:36:55.078714+00:00",
+    "last_updated": "2021-07-10T14:36:55.078714+00:00",
+    "state": "78:98:e8:38:ec:ea"
+  },
+  "sensor.rubys_macbook_air_geocoded_location": {
+    "attributes": {
+      "Administrative Area": "KA",
+      "Areas Of Interest": "N/A",
+      "Country": "India",
+      "ISO Country Code": "IN",
+      "Inland Water": "N/A",
+      "Locality": "Bengaluru",
+      "Location": [],
+      "Name": "Vishveswaraiah Road",
+      "Ocean": "N/A",
+      "Postal Code": "560076",
+      "Sub Administrative Area": "Bengaluru Urban",
+      "Sub Locality": "Mulki Sundar Ram Shetty Nagar",
+      "Sub Thoroughfare": "N/A",
+      "Thoroughfare": "Vishveswaraiah Road",
+      "Time Zone": "Asia/Kolkata",
+      "Zones": [],
+      "friendly_name": "MacBook Air Geocoded Location",
+      "icon": "mdi:map"
+    },
+    "context": {
+      "id": "22fcf1a30dbf02fd38c22a9095362477",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_geocoded_location",
+    "last_changed": "2021-07-10T14:14:34.399107+00:00",
+    "last_updated": "2021-07-10T14:15:42.320051+00:00",
+    "state": "Vishveswaraiah Road Bengaluru 560076 KA India"
+  },
+  "sensor.rubys_macbook_air_internal_battery_level": {
+    "attributes": {
+      "Battery Provides Time Remaining": true,
+      "BatteryHealth": "Good",
+      "BatteryHealthCondition": "",
+      "Current": -2636,
+      "Current Capacity": 47,
+      "DesignCycleCount": 1000,
+      "Hardware Serial Number": "D86835504FVF90JFM",
+      "Is Charging": false,
+      "Is Present": true,
+      "Max Capacity": 100,
+      "Name": "InternalBattery-0",
+      "Optimized Battery Charging Engaged": false,
+      "Power Source ID": 5701731,
+      "Power Source State": "Battery Power",
+      "Time to Empty": 145,
+      "Time to Full Charge": 0,
+      "Transport Type": "Internal",
+      "Type": "InternalBattery",
+      "device_class": "battery",
+      "friendly_name": "MacBook Air Internal Battery Level",
+      "icon": "mdi:battery-40",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "9e9594b38f22361e621474be0712a7ee",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_internal_battery_level",
+    "last_changed": "2021-07-10T15:01:47.647586+00:00",
+    "last_updated": "2021-07-10T15:02:20.266047+00:00",
+    "state": "47"
+  },
+  "sensor.rubys_macbook_air_internal_battery_state": {
+    "attributes": {
+      "Battery Provides Time Remaining": true,
+      "BatteryHealth": "Good",
+      "BatteryHealthCondition": "",
+      "Current": -2636,
+      "Current Capacity": 47,
+      "DesignCycleCount": 1000,
+      "Hardware Serial Number": "D86835504FVF90JFM",
+      "Is Charging": false,
+      "Is Present": true,
+      "Low Power Mode": false,
+      "Max Capacity": 100,
+      "Name": "InternalBattery-0",
+      "Optimized Battery Charging Engaged": false,
+      "Power Source ID": 5701731,
+      "Power Source State": "Battery Power",
+      "Time to Empty": 145,
+      "Time to Full Charge": 0,
+      "Transport Type": "Internal",
+      "Type": "InternalBattery",
+      "device_class": "battery",
+      "friendly_name": "MacBook Air Internal Battery State",
+      "icon": "mdi:battery-40"
+    },
+    "context": {
+      "id": "4ee4c53aaedd0e76bc5351dbf59bc299",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_internal_battery_state",
+    "last_changed": "2021-07-09T18:20:35.723932+00:00",
+    "last_updated": "2021-07-10T15:02:20.268334+00:00",
+    "state": "Not Charging"
+  },
+  "sensor.rubys_macbook_air_last_update_trigger": {
+    "attributes": {
+      "friendly_name": "MacBook Air Last Update Trigger",
+      "icon": "mdi:laptop-mac"
+    },
+    "context": {
+      "id": "283b6f4dafb594f955457a2a6a404480",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_last_update_trigger",
+    "last_changed": "2021-07-10T15:02:22.229958+00:00",
+    "last_updated": "2021-07-10T15:02:22.229958+00:00",
+    "state": "Signaled"
+  },
+  "sensor.rubys_macbook_air_ssid": {
+    "attributes": {"friendly_name": "MacBook Air SSID", "icon": "mdi:wifi"},
+    "context": {
+      "id": "d56d31435d41205ee2148b359ff7e235",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_ssid",
+    "last_changed": "2021-07-06T13:11:24.787773+00:00",
+    "last_updated": "2021-07-06T13:11:24.787773+00:00",
+    "state": "Shayan 5Ghz"
+  },
+  "sensor.rubys_macbook_air_storage": {
+    "attributes": {
+      "Available": "15.94 GB",
+      "Available (Important)": "17.69 GB",
+      "Available (Opportunistic)": "5.34 GB",
+      "Total": "121.12 GB",
+      "friendly_name": "MacBook Air Storage",
+      "icon": "mdi:database",
+      "unit_of_measurement": "% available"
+    },
+    "context": {
+      "id": "05eded8ce8d5e3c878681a7df24fbadc",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.rubys_macbook_air_storage",
+    "last_changed": "2021-07-10T15:02:12.238519+00:00",
+    "last_updated": "2021-07-10T15:02:12.238519+00:00",
+    "state": "4.41"
+  },
+  "sensor.server_power": {
+    "attributes": {"friendly_name": "Server Power", "unit_of_measurement": "W"},
+    "context": {
+      "id": "9b4bb7792b2381d8995fa4e8db83690e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.server_power",
+    "last_changed": "2021-07-06T13:11:30.782169+00:00",
+    "last_updated": "2021-07-06T13:11:30.782169+00:00",
+    "state": "20"
+  },
+  "sensor.server_room_energy_daily": {
+    "attributes": {
+      "friendly_name": "server_room_energy_daily",
+      "icon": "mdi:counter",
+      "last_period": "0",
+      "last_reset": "2021-07-10T18:30:00.010883+00:00",
+      "meter_period": "daily",
+      "source": "sensor.server_room_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting"
+    },
+    "context": {
+      "id": "41e42058e25371bb89a96af0ce0702e1",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.server_room_energy_daily",
+    "last_changed": "2021-07-06T13:11:22.211316+00:00",
+    "last_updated": "2021-07-10T18:30:00.011318+00:00",
+    "state": "0"
+  },
+  "sensor.server_room_energy_hourly": {
+    "attributes": {
+      "friendly_name": "server_room_energy_hourly",
+      "icon": "mdi:counter",
+      "last_period": "0",
+      "last_reset": "2021-07-11T06:30:00.005906+00:00",
+      "meter_period": "hourly",
+      "source": "sensor.server_room_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting"
+    },
+    "context": {
+      "id": "697abc6c81e81aa985ce59868aa6975f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.server_room_energy_hourly",
+    "last_changed": "2021-07-06T13:11:22.208772+00:00",
+    "last_updated": "2021-07-11T06:30:00.006320+00:00",
+    "state": "0"
+  },
+  "sensor.server_room_energy_monthly": {
+    "attributes": {
+      "friendly_name": "server_room_energy_monthly",
+      "icon": "mdi:counter",
+      "last_period": "0",
+      "last_reset": "2021-06-30T18:30:00.022125+00:00",
+      "meter_period": "monthly",
+      "source": "sensor.server_room_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting"
+    },
+    "context": {
+      "id": "1f28844c8792547a7d70906fd97f2e29",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.server_room_energy_monthly",
+    "last_changed": "2021-07-06T13:11:22.213567+00:00",
+    "last_updated": "2021-07-06T13:11:22.213567+00:00",
+    "state": "0"
+  },
+  "sensor.server_room_energy_spent": {
+    "attributes": {
+      "friendly_name": "server_room_energy_spent",
+      "icon": "mdi:chart-histogram",
+      "source": "sensor.server_room_power"
+    },
+    "context": {
+      "id": "ccc848fff8a49559b4118e6b3a8be84b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.server_room_energy_spent",
+    "last_changed": "2021-07-06T13:11:22.096938+00:00",
+    "last_updated": "2021-07-06T13:11:22.096938+00:00",
+    "state": "0.00"
+  },
+  "sensor.server_room_power": {
+    "attributes": {
+      "friendly_name": "Server Room Power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "c579a306e2903e1e02ce206d41278362",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.server_room_power",
+    "last_changed": "2021-07-06T13:11:30.785884+00:00",
+    "last_updated": "2021-07-06T13:11:30.785884+00:00",
+    "state": "20.0"
+  },
+  "sensor.shayans_iphone_activity": {
+    "attributes": {
+      "Confidence": "High",
+      "Types": [],
+      "friendly_name": "Shayan’s iPhone Activity",
+      "icon": "mdi:walk"
+    },
+    "context": {
+      "id": "9c4da5dcefa32031e5d0119b9e8f716e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_activity",
+    "last_changed": "2021-07-10T11:46:38.396028+00:00",
+    "last_updated": "2021-07-10T11:46:38.396028+00:00",
+    "state": "Walking"
+  },
+  "sensor.shayans_iphone_average_active_pace": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Average Active Pace",
+      "icon": "mdi:speedometer",
+      "unit_of_measurement": "m/s"
+    },
+    "context": {
+      "id": "1aa29a8628a5d7a043a3d35c8c5a837b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_average_active_pace",
+    "last_changed": "2021-07-10T11:46:38.403308+00:00",
+    "last_updated": "2021-07-10T11:46:38.403308+00:00",
+    "state": "1"
+  },
+  "sensor.shayans_iphone_battery_level": {
+    "attributes": {
+      "device_class": "battery",
+      "friendly_name": "Shayan’s iPhone Battery Level",
+      "icon": "mdi:battery-70",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "5ea0b64d183e42e97b06ebd54d18ac0b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_battery_level",
+    "last_changed": "2021-07-10T11:46:38.404705+00:00",
+    "last_updated": "2021-07-10T11:46:38.404705+00:00",
+    "state": "72"
+  },
+  "sensor.shayans_iphone_battery_state_2": {
+    "attributes": {
+      "Low Power Mode": false,
+      "device_class": "battery",
+      "friendly_name": "Shayan’s iPhone Battery State",
+      "icon": "mdi:battery-70"
+    },
+    "context": {
+      "id": "a8a02bfb04d6298bea0bb449b75978b2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_battery_state_2",
+    "last_changed": "2021-07-06T13:11:24.772607+00:00",
+    "last_updated": "2021-07-10T11:46:38.406100+00:00",
+    "state": "Not Charging"
+  },
+  "sensor.shayans_iphone_bssid": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone BSSID",
+      "icon": "mdi:wifi-star"
+    },
+    "context": {
+      "id": "1f56c432ce116b2d0eeaa9a5501566fd",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_bssid",
+    "last_changed": "2021-07-10T11:46:38.410181+00:00",
+    "last_updated": "2021-07-10T11:46:38.410181+00:00",
+    "state": "78:98:e8:38:ec:ea"
+  },
+  "sensor.shayans_iphone_connection_type": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Connection Type",
+      "icon": "mdi:wifi"
+    },
+    "context": {
+      "id": "9b2a5b2b550039f4541ee5e298d2dc26",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_connection_type",
+    "last_changed": "2021-07-06T13:11:24.774395+00:00",
+    "last_updated": "2021-07-06T13:11:24.774395+00:00",
+    "state": "Wi-Fi"
+  },
+  "sensor.shayans_iphone_distance": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Distance",
+      "icon": "mdi:hiking",
+      "unit_of_measurement": "m"
+    },
+    "context": {
+      "id": "7fcd11bd625a076bf84da0781d100b39",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_distance",
+    "last_changed": "2021-07-10T11:46:38.397755+00:00",
+    "last_updated": "2021-07-10T11:46:38.397755+00:00",
+    "state": "339"
+  },
+  "sensor.shayans_iphone_floors_ascended": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Floors Ascended",
+      "icon": "mdi:stairs-up",
+      "unit_of_measurement": "floors"
+    },
+    "context": {
+      "id": "d01761d78ea803f2ff95f9cf08713cbe",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_floors_ascended",
+    "last_changed": "2021-07-10T11:46:38.399203+00:00",
+    "last_updated": "2021-07-10T11:46:38.399203+00:00",
+    "state": "2"
+  },
+  "sensor.shayans_iphone_floors_descended": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Floors Descended",
+      "icon": "mdi:stairs-down",
+      "unit_of_measurement": "floors"
+    },
+    "context": {
+      "id": "0300585bcffdad8c41a4fb94004d975e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_floors_descended",
+    "last_changed": "2021-07-10T11:46:38.400525+00:00",
+    "last_updated": "2021-07-10T11:46:38.400525+00:00",
+    "state": "2"
+  },
+  "sensor.shayans_iphone_geocoded_location": {
+    "attributes": {
+      "Administrative Area": "KA",
+      "Areas Of Interest": "N/A",
+      "Country": "India",
+      "ISO Country Code": "IN",
+      "Inland Water": "N/A",
+      "Locality": "Bengaluru",
+      "Location": [],
+      "Name": "1st Cross Road",
+      "Ocean": "N/A",
+      "Postal Code": "560076",
+      "Sub Administrative Area": "Bengaluru Urban",
+      "Sub Locality": "Mulki Sundar Ram Shetty Nagar",
+      "Sub Thoroughfare": "N/A",
+      "Thoroughfare": "1st Cross Road",
+      "Time Zone": "Asia/Kolkata",
+      "Zones": [],
+      "friendly_name": "Shayan’s iPhone Geocoded Location",
+      "icon": "mdi:map"
+    },
+    "context": {
+      "id": "6ea85f62faa40ce7bf64ee1b5d8364bc",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_geocoded_location",
+    "last_changed": "2021-07-06T13:11:24.775753+00:00",
+    "last_updated": "2021-07-06T13:11:24.775753+00:00",
+    "state": "1st Cross Road Bengaluru 560076 KA India"
+  },
+  "sensor.shayans_iphone_last_update_trigger": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Last Update Trigger",
+      "icon": "mdi:cellphone-wireless"
+    },
+    "context": {
+      "id": "360b47f40078655b085616e7c4be9dd1",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_last_update_trigger",
+    "last_changed": "2021-07-06T13:11:24.776214+00:00",
+    "last_updated": "2021-07-06T13:11:24.776214+00:00",
+    "state": "Launch"
+  },
+  "sensor.shayans_iphone_sim_1": {
+    "attributes": {
+      "Allows VoIP": true,
+      "Carrier ID": "0000000100000001",
+      "Carrier Name": "AirTel",
+      "Current Radio Technology": "Long-Term Evolution (LTE)",
+      "ISO Country Code": "in",
+      "Mobile Country Code": "404",
+      "Mobile Network Code": "45",
+      "friendly_name": "Shayan’s iPhone SIM 1",
+      "icon": "mdi:sim"
+    },
+    "context": {
+      "id": "b756c501d5da02dbebd89be3b73bef49",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_sim_1",
+    "last_changed": "2021-07-06T13:11:24.775289+00:00",
+    "last_updated": "2021-07-06T13:11:24.775289+00:00",
+    "state": "AirTel"
+  },
+  "sensor.shayans_iphone_sim_2": {
+    "attributes": {
+      "Allows VoIP": true,
+      "Carrier ID": "0000000100000002",
+      "Carrier Name": "N/A",
+      "ISO Country Code": "N/A",
+      "Mobile Country Code": "N/A",
+      "Mobile Network Code": "N/A",
+      "friendly_name": "Shayan’s iPhone SIM 2",
+      "icon": "mdi:sim"
+    },
+    "context": {
+      "id": "4777fee08dd9393f45d3f6961ad56934",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_sim_2",
+    "last_changed": "2021-07-06T13:11:24.774843+00:00",
+    "last_updated": "2021-07-06T13:11:24.774843+00:00",
+    "state": "N/A"
+  },
+  "sensor.shayans_iphone_ssid": {
+    "attributes": {"friendly_name": "Shayan’s iPhone SSID", "icon": "mdi:wifi"},
+    "context": {
+      "id": "f457410c115fb0334b6acf41cab3f1dd",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_ssid",
+    "last_changed": "2021-07-10T11:46:38.408848+00:00",
+    "last_updated": "2021-07-10T11:46:38.408848+00:00",
+    "state": "Shayan 5Ghz"
+  },
+  "sensor.shayans_iphone_steps": {
+    "attributes": {
+      "friendly_name": "Shayan’s iPhone Steps",
+      "icon": "mdi:walk",
+      "unit_of_measurement": "steps"
+    },
+    "context": {
+      "id": "eafaf6f5ae9abc6b8a114207d6c83d80",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_steps",
+    "last_changed": "2021-07-10T11:46:38.401906+00:00",
+    "last_updated": "2021-07-10T11:46:38.401906+00:00",
+    "state": "507"
+  },
+  "sensor.shayans_iphone_storage": {
+    "attributes": {
+      "Available": "7.74 GB",
+      "Available (Important)": "10.42 GB",
+      "Available (Opportunistic)": "9.14 GB",
+      "Total": "63.93 GB",
+      "friendly_name": "Shayan’s iPhone Storage",
+      "icon": "mdi:database",
+      "unit_of_measurement": "% available"
+    },
+    "context": {
+      "id": "451a410d1098d4cd17a7f2ea806bfeac",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_iphone_storage",
+    "last_changed": "2021-07-10T11:46:38.407497+00:00",
+    "last_updated": "2021-07-10T11:46:38.407497+00:00",
+    "state": "14.30"
+  },
+  "sensor.shayans_macbook_air_active_camera": {
+    "attributes": {
+      "Active Camera": [],
+      "All Camera": [],
+      "friendly_name": "Shayan’s MacBook Air Active Camera",
+      "icon": "mdi:camera-off"
+    },
+    "context": {
+      "id": "9314294d52e00d1d17540dd7ba27e957",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_active_camera",
+    "last_changed": "2021-07-06T13:11:24.781131+00:00",
+    "last_updated": "2021-07-06T13:11:24.781131+00:00",
+    "state": "Inactive"
+  },
+  "sensor.shayans_macbook_air_active_microphone": {
+    "attributes": {
+      "Active Microphone": [],
+      "All Microphone": [],
+      "friendly_name": "Shayan’s MacBook Air Active Microphone",
+      "icon": "mdi:microphone"
+    },
+    "context": {
+      "id": "b3f03dcce57bd00c34cbef826a613580",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_active_microphone",
+    "last_changed": "2021-07-08T10:09:37.017140+00:00",
+    "last_updated": "2021-07-08T10:09:37.017140+00:00",
+    "state": "External Microphone"
+  },
+  "sensor.shayans_macbook_air_bssid": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air BSSID",
+      "icon": "mdi:wifi-star"
+    },
+    "context": {
+      "id": "d1b07e3539125ed916def2c667c67eda",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_bssid",
+    "last_changed": "2021-07-06T13:11:24.779805+00:00",
+    "last_updated": "2021-07-06T13:11:24.779805+00:00",
+    "state": "78:98:e8:38:ec:ea"
+  },
+  "sensor.shayans_macbook_air_connection_type": {
+    "attributes": {
+      "Hardware Address": "14:7d:da:bb:4a:e3",
+      "Name": "Wi-Fi",
+      "friendly_name": "Shayan’s MacBook Air Connection Type",
+      "icon": "mdi:wifi"
+    },
+    "context": {
+      "id": "e01a402f4c1ba705b54fe486cbcf3ac6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_connection_type",
+    "last_changed": "2021-07-06T13:11:24.782147+00:00",
+    "last_updated": "2021-07-06T13:11:24.782147+00:00",
+    "state": "Wi-Fi"
+  },
+  "sensor.shayans_macbook_air_displays": {
+    "attributes": {
+      "Display IDs": [],
+      "Display Names": [],
+      "friendly_name": "Shayan’s MacBook Air Displays",
+      "icon": "mdi:monitor-multiple"
+    },
+    "context": {
+      "id": "75f326ff1411af41770c3d2f8aa690f5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_displays",
+    "last_changed": "2021-07-06T13:11:24.782623+00:00",
+    "last_updated": "2021-07-06T13:11:24.782623+00:00",
+    "state": "1"
+  },
+  "sensor.shayans_macbook_air_frontmost_app": {
+    "attributes": {
+      "Bundle Identifier": "com.apple.Safari",
+      "Is Hidden": false,
+      "Launch Date": "2021-07-07T05:21:28Z",
+      "Owns Menu Bar": true,
+      "friendly_name": "Shayan’s MacBook Air Frontmost App",
+      "icon": "mdi:traffic-light"
+    },
+    "context": {
+      "id": "cb55df19b257bbe8c562e376bb351492",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_frontmost_app",
+    "last_changed": "2021-07-08T10:09:40.585427+00:00",
+    "last_updated": "2021-07-08T10:09:40.585427+00:00",
+    "state": "Safari"
+  },
+  "sensor.shayans_macbook_air_geocoded_location": {
+    "attributes": {
+      "Administrative Area": "KA",
+      "Areas Of Interest": "N/A",
+      "Country": "India",
+      "ISO Country Code": "IN",
+      "Inland Water": "N/A",
+      "Locality": "Bengaluru",
+      "Location": [],
+      "Name": "1st Cross Road",
+      "Ocean": "N/A",
+      "Postal Code": "560076",
+      "Sub Administrative Area": "Bengaluru Urban",
+      "Sub Locality": "Mulki Sundar Ram Shetty Nagar",
+      "Sub Thoroughfare": "N/A",
+      "Thoroughfare": "1st Cross Road",
+      "Time Zone": "Asia/Kolkata",
+      "Zones": [],
+      "friendly_name": "Shayan’s MacBook Air Geocoded Location",
+      "icon": "mdi:map"
+    },
+    "context": {
+      "id": "dd788a5bbb7cd93cad642d858dfa0e1c",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_geocoded_location",
+    "last_changed": "2021-07-06T13:11:24.780689+00:00",
+    "last_updated": "2021-07-08T10:09:37.123889+00:00",
+    "state": "1st Cross Road Bengaluru 560076 KA India"
+  },
+  "sensor.shayans_macbook_air_internal_battery_level": {
+    "attributes": {
+      "Battery Provides Time Remaining": true,
+      "BatteryHealth": "Good",
+      "BatteryHealthCondition": "",
+      "Current": 1093,
+      "Current Capacity": 98,
+      "DesignCycleCount": 1000,
+      "Hardware Serial Number": "F5D03834XNKN4F3AR",
+      "Is Charging": true,
+      "Is Finishing Charge": false,
+      "Is Present": true,
+      "Max Capacity": 100,
+      "Name": "InternalBattery-0",
+      "Optimized Battery Charging Engaged": false,
+      "Power Source ID": 5570659,
+      "Power Source State": "AC Power",
+      "Time to Empty": 0,
+      "Time to Full Charge": 28,
+      "Transport Type": "Internal",
+      "Type": "InternalBattery",
+      "device_class": "battery",
+      "friendly_name": "Shayan’s MacBook Air Internal Battery Level",
+      "icon": "mdi:battery-charging-80",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "69f25e32904b23f332b016200abed12e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_internal_battery_level",
+    "last_changed": "2021-07-08T10:09:37.002974+00:00",
+    "last_updated": "2021-07-08T10:09:37.002974+00:00",
+    "state": "98"
+  },
+  "sensor.shayans_macbook_air_internal_battery_state": {
+    "attributes": {
+      "Battery Provides Time Remaining": true,
+      "BatteryHealth": "Good",
+      "BatteryHealthCondition": "",
+      "Current": 1093,
+      "Current Capacity": 98,
+      "DesignCycleCount": 1000,
+      "Hardware Serial Number": "F5D03834XNKN4F3AR",
+      "Is Charging": true,
+      "Is Finishing Charge": false,
+      "Is Present": true,
+      "Low Power Mode": false,
+      "Max Capacity": 100,
+      "Name": "InternalBattery-0",
+      "Optimized Battery Charging Engaged": false,
+      "Power Source ID": 5570659,
+      "Power Source State": "AC Power",
+      "Time to Empty": 0,
+      "Time to Full Charge": 28,
+      "Transport Type": "Internal",
+      "Type": "InternalBattery",
+      "device_class": "battery",
+      "friendly_name": "Shayan’s MacBook Air Internal Battery State",
+      "icon": "mdi:battery-charging-80"
+    },
+    "context": {
+      "id": "46ba235ad97522a69a8997bc1f172ae0",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_internal_battery_state",
+    "last_changed": "2021-07-08T10:09:37.005103+00:00",
+    "last_updated": "2021-07-08T10:09:37.005103+00:00",
+    "state": "Charging"
+  },
+  "sensor.shayans_macbook_air_last_update_trigger": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air Last Update Trigger",
+      "icon": "mdi:laptop-mac"
+    },
+    "context": {
+      "id": "aa3fba6ac6e7da69b54da7f0a80616e4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_last_update_trigger",
+    "last_changed": "2021-07-08T10:09:40.587192+00:00",
+    "last_updated": "2021-07-08T10:09:40.587192+00:00",
+    "state": "Signaled"
+  },
+  "sensor.shayans_macbook_air_primary_display_id": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air Primary Display ID",
+      "icon": "mdi:monitor-star"
+    },
+    "context": {
+      "id": "5a7f36f57d46498c4caf6d6fbd64826f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_primary_display_id",
+    "last_changed": "2021-07-06T13:11:24.783537+00:00",
+    "last_updated": "2021-07-06T13:11:24.783537+00:00",
+    "state": "2A5BAAD8-0592-A4BF-93BA-2F18BA6234F2"
+  },
+  "sensor.shayans_macbook_air_primary_display_name": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air Primary Display Name",
+      "icon": "mdi:monitor-star"
+    },
+    "context": {
+      "id": "afc56925f1fddcf7b0ca2cd749847a41",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_primary_display_name",
+    "last_changed": "2021-07-06T13:11:24.783089+00:00",
+    "last_updated": "2021-07-06T13:11:24.783089+00:00",
+    "state": "Built-in Retina Display"
+  },
+  "sensor.shayans_macbook_air_ssid": {
+    "attributes": {
+      "friendly_name": "Shayan’s MacBook Air SSID",
+      "icon": "mdi:wifi"
+    },
+    "context": {
+      "id": "7fdfd881634d7ba76665204160dddbde",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_ssid",
+    "last_changed": "2021-07-06T13:11:24.778924+00:00",
+    "last_updated": "2021-07-06T13:11:24.778924+00:00",
+    "state": "Shayan 5Ghz"
+  },
+  "sensor.shayans_macbook_air_storage": {
+    "attributes": {
+      "Available": "3.63 GB",
+      "Available (Important)": "3.64 GB",
+      "Available (Opportunistic)": "0.0 MB",
+      "Total": "250.69 GB",
+      "friendly_name": "Shayan’s MacBook Air Storage",
+      "icon": "mdi:database",
+      "unit_of_measurement": "% available"
+    },
+    "context": {
+      "id": "5972daea6d187717dafd3b3be9fb2e8e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_macbook_air_storage",
+    "last_changed": "2021-07-06T13:11:24.779370+00:00",
+    "last_updated": "2021-07-08T10:09:40.580851+00:00",
+    "state": "0.00"
+  },
+  "sensor.shayans_room_occ_hourly": {
+    "attributes": {
+      "friendly_name": "shayans_room_occ_hourly",
+      "icon": "mdi:counter",
+      "last_period": "0",
+      "last_reset": "2021-07-11T06:30:00.006649+00:00",
+      "meter_period": "hourly",
+      "source": "sensor.shayans_room_occupancy",
+      "state_class": "measurement",
+      "status": "collecting"
+    },
+    "context": {
+      "id": "7df8f3db4bca59a84770f9e9aeab2a84",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.shayans_room_occ_hourly",
+    "last_changed": "2021-07-06T13:11:22.215390+00:00",
+    "last_updated": "2021-07-11T06:30:00.006902+00:00",
+    "state": "0"
+  },
+  "sensor.speedtest_download": {
+    "attributes": {
+      "attribution": "Data retrieved from Speedtest.net by Ookla",
+      "bytes_received": 112241416,
+      "friendly_name": "SpeedTest Download",
+      "icon": "mdi:speedometer",
+      "server_country": "India",
+      "server_id": "13919",
+      "server_name": "Bengaluru",
+      "unit_of_measurement": "Mbit/s"
+    },
+    "context": {
+      "id": "1d50d5f2bf3b1dd089fe0b963c872343",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.speedtest_download",
+    "last_changed": "2021-07-11T06:56:49.799142+00:00",
+    "last_updated": "2021-07-11T06:56:49.799142+00:00",
+    "state": "89.47"
+  },
+  "sensor.speedtest_ping": {
+    "attributes": {
+      "attribution": "Data retrieved from Speedtest.net by Ookla",
+      "friendly_name": "SpeedTest Ping",
+      "icon": "mdi:speedometer",
+      "server_country": "India",
+      "server_id": "13919",
+      "server_name": "Bengaluru",
+      "unit_of_measurement": "ms"
+    },
+    "context": {
+      "id": "d75299821aab70f43fc02436d67e8604",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.speedtest_ping",
+    "last_changed": "2021-07-11T06:56:49.798388+00:00",
+    "last_updated": "2021-07-11T06:56:49.798388+00:00",
+    "state": "44.577"
+  },
+  "sensor.speedtest_upload": {
+    "attributes": {
+      "attribution": "Data retrieved from Speedtest.net by Ookla",
+      "bytes_sent": 108093440,
+      "friendly_name": "SpeedTest Upload",
+      "icon": "mdi:speedometer",
+      "server_country": "India",
+      "server_id": "13919",
+      "server_name": "Bengaluru",
+      "unit_of_measurement": "Mbit/s"
+    },
+    "context": {
+      "id": "88821dee6d61237344d3507f06c1bae4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.speedtest_upload",
+    "last_changed": "2021-07-11T06:56:49.799855+00:00",
+    "last_updated": "2021-07-11T06:56:49.799855+00:00",
+    "state": "86.39"
+  },
+  "sensor.total_energy_daily": {
+    "attributes": {
+      "device_class": "energy",
+      "friendly_name": "total_energy_daily",
+      "icon": "mdi:counter",
+      "last_period": "1.18",
+      "last_reset": "2021-07-10T18:30:00.012328+00:00",
+      "meter_period": "daily",
+      "source": "sensor.total_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "a273b8bb3acbaa226be595d180b670c6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.total_energy_daily",
+    "last_changed": "2021-07-11T02:06:21.983886+00:00",
+    "last_updated": "2021-07-11T02:06:21.983886+00:00",
+    "state": "0.36"
+  },
+  "sensor.total_energy_hourly": {
+    "attributes": {
+      "device_class": "energy",
+      "friendly_name": "total_energy_hourly",
+      "icon": "mdi:counter",
+      "last_period": "0",
+      "last_reset": "2021-07-11T06:30:00.007657+00:00",
+      "meter_period": "hourly",
+      "source": "sensor.total_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "288092662eb3087a0d46046ea0017d6b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.total_energy_hourly",
+    "last_changed": "2021-07-11T02:30:00.007519+00:00",
+    "last_updated": "2021-07-11T06:30:00.007887+00:00",
+    "state": "0"
+  },
+  "sensor.total_energy_monthly": {
+    "attributes": {
+      "device_class": "energy",
+      "friendly_name": "total_energy_monthly",
+      "icon": "mdi:counter",
+      "last_period": "38.58",
+      "last_reset": "2021-06-30T18:30:00.019243+00:00",
+      "meter_period": "monthly",
+      "source": "sensor.total_energy_spent",
+      "state_class": "measurement",
+      "status": "collecting",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "1be8580aee725edfd37bab6713e58add",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.total_energy_monthly",
+    "last_changed": "2021-07-11T02:06:21.984358+00:00",
+    "last_updated": "2021-07-11T02:06:21.984358+00:00",
+    "state": "12.79"
+  },
+  "sensor.total_energy_spent": {
+    "attributes": {
+      "friendly_name": "total_energy_spent",
+      "icon": "mdi:chart-histogram",
+      "source": "sensor.total_power",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "e617fa78416e788ec5b97e44ad5c0233",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.total_energy_spent",
+    "last_changed": "2021-07-11T02:06:21.981401+00:00",
+    "last_updated": "2021-07-11T02:06:21.981401+00:00",
+    "state": "4469.31"
+  },
+  "sensor.total_power": {
+    "attributes": {"friendly_name": "Total Power", "unit_of_measurement": "W"},
+    "context": {
+      "id": "fad317a31f25bd72cd8ff69085770a0d",
+      "parent_id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "user_id": null
+    },
+    "entity_id": "sensor.total_power",
+    "last_changed": "2021-07-11T02:06:22.042784+00:00",
+    "last_updated": "2021-07-11T02:06:22.042784+00:00",
+    "state": "20.0"
+  },
+  "sun.sun": {
+    "attributes": {
+      "azimuth": 0.07,
+      "elevation": 80.83,
+      "friendly_name": "Sun",
+      "next_dawn": "2021-07-12T00:06:20.327909+00:00",
+      "next_dusk": "2021-07-11T13:44:03.922920+00:00",
+      "next_midnight": "2021-07-11T18:55:14+00:00",
+      "next_noon": "2021-07-12T06:55:11+00:00",
+      "next_rising": "2021-07-12T00:29:48.134290+00:00",
+      "next_setting": "2021-07-11T13:20:35.800336+00:00",
+      "rising": false
+    },
+    "context": {
+      "id": "ea2e829b287fd6c962b7dff17f586b04",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sun.sun",
+    "last_changed": "2021-07-11T00:29:31.344298+00:00",
+    "last_updated": "2021-07-11T06:55:03.018515+00:00",
+    "state": "above_horizon"
+  },
+  "switch.bedlight": {
+    "attributes": {"friendly_name": "Bedlight", "icon": "mdi:lightbulb"},
+    "context": {
+      "id": "fad317a31f25bd72cd8ff69085770a0d",
+      "parent_id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "user_id": null
+    },
+    "entity_id": "switch.bedlight",
+    "last_changed": "2021-07-11T02:06:22.033935+00:00",
+    "last_updated": "2021-07-11T02:06:22.033935+00:00",
+    "state": "off"
+  },
+  "switch.charger": {
+    "attributes": {"friendly_name": "Charger", "icon": "mdi:power-socket-uk"},
+    "context": {
+      "id": "2a7880294466e045e623f972115630a2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.charger",
+    "last_changed": "2021-07-07T20:41:14.403385+00:00",
+    "last_updated": "2021-07-07T20:41:14.403385+00:00",
+    "state": "off"
+  },
+  "switch.double_light": {
+    "attributes": {
+      "friendly_name": "Double Light",
+      "icon": "mdi:lightbulb-multiple"
+    },
+    "context": {
+      "id": "51e0f7d219b0096087eccc7a8700a792",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.double_light",
+    "last_changed": "2021-07-10T17:51:02.664024+00:00",
+    "last_updated": "2021-07-10T17:51:02.664024+00:00",
+    "state": "off"
+  },
+  "switch.fan": {
+    "attributes": {"friendly_name": "Fan", "icon": "mdi:fan"},
+    "context": {
+      "id": "a9b0322b1f48946ef1428f5b9d4f0bb6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.fan",
+    "last_changed": "2021-07-11T02:06:21.949695+00:00",
+    "last_updated": "2021-07-11T02:06:21.949695+00:00",
+    "state": "off"
+  },
+  "switch.rubys_bedlight": {
+    "attributes": {"friendly_name": "Rubys Bedlight", "icon": ""},
+    "context": {
+      "id": "d0542feec262a4ba70c4246bf5bc8fa5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.rubys_bedlight",
+    "last_changed": "2021-07-06T13:11:24.914491+00:00",
+    "last_updated": "2021-07-06T13:11:24.914491+00:00",
+    "state": "unavailable"
+  },
+  "switch.rubys_tubelight": {
+    "attributes": {"friendly_name": "Rubys Tubelight", "icon": ""},
+    "context": {
+      "id": "858be491c77078276538fb2ea1e6a124",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.rubys_tubelight",
+    "last_changed": "2021-07-06T13:11:24.913024+00:00",
+    "last_updated": "2021-07-06T13:11:24.913024+00:00",
+    "state": "unavailable"
+  },
+  "switch.s_light": {
+    "attributes": {"friendly_name": "S Light", "icon": "mdi:alpha-s-circle"},
+    "context": {
+      "id": "7d1d090b5101f29150e24b037b656c68",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.s_light",
+    "last_changed": "2021-07-07T20:31:07.526875+00:00",
+    "last_updated": "2021-07-07T20:31:07.526875+00:00",
+    "state": "unavailable"
+  },
+  "zone.home": {
+    "attributes": {
+      "editable": true,
+      "friendly_name": "Home",
+      "icon": "mdi:home",
+      "latitude": 12.888453172125452,
+      "longitude": 77.60991096496583,
+      "passive": false,
+      "radius": 100
+    },
+    "context": {
+      "id": "dfb5d81543fd7649aa581d182bbba4dc",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "zone.home",
+    "last_changed": "2021-07-06T13:11:20.892177+00:00",
+    "last_updated": "2021-07-06T13:11:20.892177+00:00",
+    "state": "zoning"
+  }
+}
