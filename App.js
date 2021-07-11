@@ -10,7 +10,7 @@ import {
   Text,
   View,
 } from 'react-native';
-require('dotenv').config()
+import { REACT_APP_ACCESS_TOKEN } from '@env';
 
 const App = () => {
   useEffect(async () => {
