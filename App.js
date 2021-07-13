@@ -31,13 +31,12 @@ const App = () => {
   return (
     <ScrollView>
       {
-        data && Object.keys(data).filter.map((item, i) => (
-          <Fragment>
-            {(item.split(".")[0] === "scene" || item.split(".")[0] === "switch") && <Text>{item}</Text>}
-          </Fragment>
+        data && Object.keys(data).filter(function(item) {
+          return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
+        }).map((item) => (
+          <Text>{item}</Text>
         ))
       }
-
     </ScrollView>
   );
 };
