@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { useEffect, useState } from 'react';
 import {
   Auth,
@@ -31,9 +31,10 @@ const App = () => {
   return (
     <ScrollView>
       {
-        data && Object.keys(data).map((item, i) => (
-          
-          <Text>{item}</Text>
+        data && Object.keys(data).filter.map((item, i) => (
+          <Fragment>
+            {(item.split(".")[0] === "scene" || item.split(".")[0] === "switch") && <Text>{item}</Text>}
+          </Fragment>
         ))
       }
 
