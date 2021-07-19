@@ -12,6 +12,7 @@ target 'homeAssistant' do
     :hermes_enabled => false
   )
 
+
   target 'homeAssistantTests' do
     inherit! :complete
     # Pods for testing
