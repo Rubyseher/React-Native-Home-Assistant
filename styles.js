@@ -14,18 +14,19 @@ export const styles = StyleSheet.create({
   entitiesBox: {
     backgroundColor: colors.white,
     borderRadius: 20,
-    width: 140,
-    height: 140,
     alignItems:'center',
-    // justifyContent:"space-ev",
     margin: '4%'
   },
-  entitiesContainer: {
-    // height:"100%",
-    // width:"100%",
-    // flexDirection: 'row',
-    // padding:'10%',
-    // justifyContent:'c-',
-    // flexWrap:'wrap'
+  small:{
+    width: 110,
+    height: 110,
+  } ,
+  medium:{
+    width: 140,
+    height: 140,
+  } ,
+  large:{
+    width: 170,
+    height: 170,
   }
 })
