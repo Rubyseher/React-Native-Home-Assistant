@@ -7,6 +7,7 @@ import { styles, colors } from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 // import Icon from 'react-native-vector-icons/dist/FontAwesome';
 
+
 const App = () => {
   const [data, setData] = useState()
 
@@ -23,17 +24,19 @@ const App = () => {
 
   }, [])
   return (
-    <ScrollView>
-      {/* {
-        data && Object.keys(data).filter(function (item) {
-          return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
-        }).map((item) => (
-          // <View style={styles.entitiesBox}>
-            <Text>{item}</Text>
-          // </View>
-        ))
-      } */}
-      <Icon name="lightbulb" size={120} color={colors.darkBlue} solid />
+    <ScrollView style={{backgroundColor:colors.lightGrey}}>
+      <View style={styles.entitiesContainer}>
+        {
+          data && Object.keys(data).filter(function (item) {
+            return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
+          }).map((item) => (
+              <View style={styles.entitiesBox}>
+                <Icon name="lightbulb" size={70} color={colors.darkBlue} solid />
+                <Text>{item}</Text>
+              </View>
+          ))
+        }
+      </View>
 
     </ScrollView>
   );

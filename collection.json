@@ -1,0 +1,42 @@
+{
+  "switch.charger": {
+    "size": "medium",
+    "icon": "power-socket-uk"
+  },
+  "switch.fan": {
+    "size": "large",
+    "icon": "fan"
+  },
+  "scene.shayan_good_night": {
+    "size": "small",
+    "icon": "weather-night"
+  },
+  "scene.shayan_main_scene": {
+    "size": "large",
+    "icon": "ceiling-light"
+  },
+  "scene.shayan_leave_room": {
+    "size": "large",
+    "icon": "power-socket-uk"
+  },
+  "switch.double_light": {
+    "size": "large",
+    "icon": "lightbulb"
+  },
+  "switch.bedlight": {
+    "size": "small",
+    "icon": "lightbulb"
+  },
+  "switch.rubys_tubelight": {
+    "size": "large",
+    "icon": "lightbulb"
+  },
+  "switch.rubys_bedlight": {
+    "size": "small",
+    "icon": "lightbulb"
+  },
+  "switch.s_light": {
+    "size": "medium",
+    "icon": "lightbulb"
+  }
+}
