@@ -30,8 +30,19 @@ const App = () => {
 
   const _renderItem = (item, index, isMoved) => {
     const iconSizes = { small: 40, medium: 50, large: 60 }
+    const contextMenu = [
+      { key: 'foo', title: 'Foo' },
+      { isSeparator: true },
+      { key: 'bar', title: 'Bar' },
+    ]
+    
     return (
-      <TouchableOpacity style={[ styles.entitiesBox, styles[layoutSizes[item].size]]}
+      <TouchableOpacity 
+      contextMenu={contextMenu}
+  onContextMenuItemClick={event => {
+    console.log(event.nativeEvent)
+  }}
+  style={[ styles.entitiesBox, styles[layoutSizes[item].size]]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
@@ -43,7 +54,6 @@ const App = () => {
 
   return (
     <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: '5%', paddingTop: "12%" }}>
-      {/* <View style={styles.entitiesContainer}> */}
       <Text style={styles.title}>Dashboard</Text>
       {
         data && <AnySizeDragSortableView
@@ -59,23 +69,6 @@ const App = () => {
             callback();
           }}
         />
-      }
-
-      {/* </View> */}
-
-      {
-      /* <View style={styles.entitiesContainer}>
-        {
-          data && Object.keys(data).filter(function (item) {
-            return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
-          }).map((item, k) => (
-            <View key={k} style={styles.entitiesBox}>
-              <Icon name="lightbulb" size={70} color={colors.darkBlue} solid />
-              <Text>{item}</Text>
-            </View>
-          ))
-        }
-      </View> */
       }
     </View>
   );

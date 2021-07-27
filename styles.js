@@ -17,12 +17,21 @@ export const styles = StyleSheet.create({
     paddingBottom:'3%'
   },
   entitiesBox: {
-    backgroundColor: colors.lightGrey,
+    backgroundColor: colors.white,
     borderRadius: 20,
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
-    margin:'2%'
+    marginVertical:10,
+    marginHorizontal:7,
+    shadowColor: "#000",
+    shadowOffset: {
+        width: 0,
+        height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   small:{
     width: 80,
