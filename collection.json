@@ -1,10 +1,10 @@
 {
   "switch.charger": {
-    "size": "medium",
+    "size": "small",
     "icon": "power-socket-uk"
   },
   "switch.fan": {
-    "size": "large",
+    "size": "small",
     "icon": "fan"
   },
   "scene.shayan_good_night": {
@@ -16,7 +16,7 @@
     "icon": "ceiling-light"
   },
   "scene.shayan_leave_room": {
-    "size": "large",
+    "size": "medium",
     "icon": "power-socket-uk"
   },
   "switch.double_light": {
@@ -28,11 +28,11 @@
     "icon": "lightbulb"
   },
   "switch.rubys_tubelight": {
-    "size": "large",
+    "size": "medium",
     "icon": "lightbulb"
   },
   "switch.rubys_bedlight": {
-    "size": "small",
+    "size": "medium",
     "icon": "lightbulb"
   },
   "switch.s_light": {

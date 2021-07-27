@@ -11,22 +11,29 @@ export const colors = {
 
 export const styles = StyleSheet.create({
   // *********************** MAIN SCREEN ***********************
+  title:{
+    fontSize:34,
+    fontWeight:'600',
+    paddingBottom:'3%'
+  },
   entitiesBox: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.lightGrey,
     borderRadius: 20,
+    display:'flex',
+    justifyContent:'center',
     alignItems:'center',
-    margin: '4%'
+    margin:'2%'
   },
   small:{
-    width: 110,
-    height: 110,
+    width: 80,
+    height: 80,
   } ,
   medium:{
-    width: 140,
-    height: 140,
-  } ,
-  large:{
     width: 170,
     height: 170,
+  } ,
+  large:{
+    width: 330,
+    height: 150,
   }
 })

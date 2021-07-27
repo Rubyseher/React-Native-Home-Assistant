@@ -4,6 +4,7 @@ import { ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { styles, colors } from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
+import MIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 // import Icon from 'react-native-vector-icons/dist/FontAwesome';
 import { DragSortableView, AutoDragSortableView, AnySizeDragSortableView } from 'react-native-drag-sort';
 
@@ -28,39 +29,42 @@ const App = () => {
   }, [])
 
   const _renderItem = (item, index, isMoved) => {
-    const iconSizes={small:50,medium:70,large:90}
-    // console.log("isize",layoutSizes[item].size);
+    const iconSizes = { small: 40, medium: 50, large: 60 }
     return (
-      <TouchableOpacity style={[styles.entitiesBox,styles[layoutSizes[item].size]]}
+      <TouchableOpacity style={[ styles.entitiesBox, styles[layoutSizes[item].size]]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
-        <Icon name="lightbulb" size={iconSizes[layoutSizes[item].size]} color={colors.darkBlue} solid />
-        <Text>{item}</Text>
+        <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={colors.darkBlue} solid />
+        { layoutSizes[item].size != "small" ? <Text>{item}</Text> : null }
       </TouchableOpacity>
     )
   }
 
   return (
-    <View style={{ backgroundColor: colors.lightGrey, height: '100%', width: '100%', paddingHorizontal: '6%' }}>
+    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: '5%', paddingTop: "12%" }}>
       {/* <View style={styles.entitiesContainer}> */}
-      {data && <AnySizeDragSortableView
-        ref={sortableViewRef}
-        dataSource={layoutItems.filter(function (item) {
-          return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
-        })}
-        keyExtractor={(item, i) => i}
-        renderItem={_renderItem}
-        onDataChange={(d, callback) => {
-          console.log(d);
-          setLayoutItems(d);
-          callback();
-        }}
-      />
+      <Text style={styles.title}>Dashboard</Text>
+      {
+        data && <AnySizeDragSortableView
+          ref={sortableViewRef}
+          dataSource={layoutItems.filter(function (item) {
+            return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
+          })}
+          keyExtractor={(item, i) => i}
+          renderItem={_renderItem}
+          onDataChange={(d, callback) => {
+            console.log(d);
+            setLayoutItems(d);
+            callback();
+          }}
+        />
       }
+
       {/* </View> */}
 
-      {/* <View style={styles.entitiesContainer}>
+      {
+      /* <View style={styles.entitiesContainer}>
         {
           data && Object.keys(data).filter(function (item) {
             return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
@@ -71,7 +75,8 @@ const App = () => {
             </View>
           ))
         }
-      </View> */}
+      </View> */
+      }
     </View>
   );
 };
