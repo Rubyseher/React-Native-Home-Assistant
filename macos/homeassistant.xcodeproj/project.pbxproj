@@ -16,6 +16,7 @@
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
+		9BFB6F8A26B1E1A000A5245F /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9BFB6F8926B1E1A000A5245F /* Fonts */; };
 		E70DC7E7459985B8DF4386E4 /* libPods-homeassistant-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3BEEF7A1F3529A31468A69 /* libPods-homeassistant-iOS.a */; };
 		EDA560AB9F5740F53079EE51 /* libPods-homeassistant-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 330352824772F743445C6465 /* libPods-homeassistant-macOS.a */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		514201572437B4B40078DB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		514201592437B4B40078DB4F /* homeassistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homeassistant.entitlements; sourceTree = "<group>"; };
 		689FB81A4E2AF4EF6E1B47B6 /* Pods-homeassistant-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeassistant-iOS.debug.xcconfig"; path = "Target Support Files/Pods-homeassistant-iOS/Pods-homeassistant-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9BFB6F8926B1E1A000A5245F /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		9D32DFD059D5DB6DDEF38881 /* Pods-Shared-homeassistant-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-homeassistant-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Shared-homeassistant-iOS/Pods-Shared-homeassistant-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A82DFB63B157C65E5D698CA2 /* Pods-Shared-homeassistant-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-homeassistant-iOS.release.xcconfig"; path = "Target Support Files/Pods-Shared-homeassistant-iOS/Pods-Shared-homeassistant-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		BD3BEEF7A1F3529A31468A69 /* libPods-homeassistant-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-homeassistant-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				9BFB6F8926B1E1A000A5245F /* Fonts */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFB6F8A26B1E1A000A5245F /* Fonts in Resources */,
 				514201522437B4B40078DB4F /* Assets.xcassets in Resources */,
 				514201552437B4B40078DB4F /* Main.storyboard in Resources */,
 			);

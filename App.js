@@ -15,17 +15,20 @@ const App = () => {
   const [layoutItems, setLayoutItems] = useState([])
   const [layoutSizes, setLayoutSizes] = useState(collection)
   const sortableViewRef = useRef();
-  useEffect(async () => {
-    const auth = createLongLivedTokenAuth(
-      "http://home.local:8123",
-      REACT_APP_ACCESS_TOKEN
-    );
+  useEffect(() => {
+    const loadData = async () => {
+      const auth = createLongLivedTokenAuth(
+        "http://home.local:8123",
+        REACT_APP_ACCESS_TOKEN
+      );
 
-    const connection = await createConnection({ auth });
-    subscribeEntities(connection, (entities) => {
-      setData(entities)
-      setLayoutItems(Object.keys(entities))
-    });
+      const connection = await createConnection({ auth });
+      subscribeEntities(connection, (entities) => {
+        setData(entities)
+        setLayoutItems(Object.keys(entities))
+      });
+    }
+    loadData()
   }, [])
 
   const _renderItem = (item, index, isMoved) => {
@@ -35,19 +38,19 @@ const App = () => {
       { isSeparator: true },
       { key: 'bar', title: 'Bar' },
     ]
-    
+
     return (
-      <TouchableOpacity 
-      contextMenu={contextMenu}
-  onContextMenuItemClick={event => {
-    console.log(event.nativeEvent)
-  }}
-  style={[ styles.entitiesBox, styles[layoutSizes[item].size]]}
+      <TouchableOpacity
+        contextMenu={contextMenu}
+        onContextMenuItemClick={event => {
+          console.log(event.nativeEvent)
+        }}
+        style={[styles.entitiesBox, styles[layoutSizes[item].size]]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
         <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={colors.darkBlue} solid />
-        { layoutSizes[item].size != "small" ? <Text>{item}</Text> : null }
+        {layoutSizes[item].size != "small" ? <Text>{item}</Text> : null}
       </TouchableOpacity>
     )
   }
