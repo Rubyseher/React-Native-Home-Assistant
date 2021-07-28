@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface homeAssistantTests : XCTestCase
+@interface homeassistantTests : XCTestCase
 
 @end
 
-@implementation homeAssistantTests
+@implementation homeassistantTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

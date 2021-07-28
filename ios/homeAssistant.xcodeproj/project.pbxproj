@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* homeAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* homeAssistantTests.m */; };
+		00E356F31AD99517003FC87E /* homeassistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* homeassistantTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4A7C6E97CBD7C93FB52C0C63 /* libPods-homeAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8046B715EDB14F44F69840FA /* libPods-homeAssistant.a */; };
+		4A7C6E97CBD7C93FB52C0C63 /* libPods-homeassistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8046B715EDB14F44F69840FA /* libPods-homeassistant.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9AC82666398016623215C171 /* libPods-homeAssistant-homeAssistantTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1C298F915058C7FF1A4AA8 /* libPods-homeAssistant-homeAssistantTests.a */; };
+		9AC82666398016623215C171 /* libPods-homeassistant-homeassistantTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1C298F915058C7FF1A4AA8 /* libPods-homeassistant-homeassistantTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = homeAssistant;
+			remoteInfo = homeassistant;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* homeAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* homeassistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeassistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* homeAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeAssistantTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* homeAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = homeAssistant/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = homeAssistant/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = homeAssistant/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = homeAssistant/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = homeAssistant/main.m; sourceTree = "<group>"; };
-		292827595FF756D972167B1B /* Pods-homeAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeAssistant.release.xcconfig"; path = "Target Support Files/Pods-homeAssistant/Pods-homeAssistant.release.xcconfig"; sourceTree = "<group>"; };
-		2C1C298F915058C7FF1A4AA8 /* libPods-homeAssistant-homeAssistantTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-homeAssistant-homeAssistantTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C20E517942151837AF80FB0 /* Pods-homeAssistant-homeAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeAssistant-homeAssistantTests.debug.xcconfig"; path = "Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
-		55C9E2E5E7D191CB7AA67B62 /* Pods-homeAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeAssistant.debug.xcconfig"; path = "Target Support Files/Pods-homeAssistant/Pods-homeAssistant.debug.xcconfig"; sourceTree = "<group>"; };
-		8046B715EDB14F44F69840FA /* libPods-homeAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-homeAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = homeAssistant/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* homeassistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeassistantTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* homeassistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeassistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = homeassistant/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = homeassistant/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = homeassistant/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = homeassistant/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = homeassistant/main.m; sourceTree = "<group>"; };
+		292827595FF756D972167B1B /* Pods-homeassistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeassistant.release.xcconfig"; path = "Target Support Files/Pods-homeassistant/Pods-homeassistant.release.xcconfig"; sourceTree = "<group>"; };
+		2C1C298F915058C7FF1A4AA8 /* libPods-homeassistant-homeassistantTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-homeassistant-homeassistantTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20E517942151837AF80FB0 /* Pods-homeassistant-homeassistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeassistant-homeassistantTests.debug.xcconfig"; path = "Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55C9E2E5E7D191CB7AA67B62 /* Pods-homeassistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeassistant.debug.xcconfig"; path = "Target Support Files/Pods-homeassistant/Pods-homeassistant.debug.xcconfig"; sourceTree = "<group>"; };
+		8046B715EDB14F44F69840FA /* libPods-homeassistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-homeassistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = homeassistant/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F16A189E0A7E51940F4C8B99 /* Pods-homeAssistant-homeAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeAssistant-homeAssistantTests.release.xcconfig"; path = "Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		F16A189E0A7E51940F4C8B99 /* Pods-homeassistant-homeassistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeassistant-homeassistantTests.release.xcconfig"; path = "Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC82666398016623215C171 /* libPods-homeAssistant-homeAssistantTests.a in Frameworks */,
+				9AC82666398016623215C171 /* libPods-homeassistant-homeassistantTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7C6E97CBD7C93FB52C0C63 /* libPods-homeAssistant.a in Frameworks */,
+				4A7C6E97CBD7C93FB52C0C63 /* libPods-homeassistant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* homeAssistantTests */ = {
+		00E356EF1AD99517003FC87E /* homeassistantTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* homeAssistantTests.m */,
+				00E356F21AD99517003FC87E /* homeassistantTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = homeAssistantTests;
+			path = homeassistantTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* homeAssistant */ = {
+		13B07FAE1A68108700A75B9A /* homeassistant */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = homeAssistant;
+			name = homeassistant;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8046B715EDB14F44F69840FA /* libPods-homeAssistant.a */,
-				2C1C298F915058C7FF1A4AA8 /* libPods-homeAssistant-homeAssistantTests.a */,
+				8046B715EDB14F44F69840FA /* libPods-homeassistant.a */,
+				2C1C298F915058C7FF1A4AA8 /* libPods-homeassistant-homeassistantTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* homeAssistant */,
+				13B07FAE1A68108700A75B9A /* homeassistant */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* homeAssistantTests */,
+				00E356EF1AD99517003FC87E /* homeassistantTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B9DBD89012E33F6C6F3424C4 /* Pods */,
@@ -140,8 +140,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* homeAssistant.app */,
-				00E356EE1AD99517003FC87E /* homeAssistantTests.xctest */,
+				13B07F961A680F5B00A75B9A /* homeassistant.app */,
+				00E356EE1AD99517003FC87E /* homeassistantTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,10 +149,10 @@
 		B9DBD89012E33F6C6F3424C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55C9E2E5E7D191CB7AA67B62 /* Pods-homeAssistant.debug.xcconfig */,
-				292827595FF756D972167B1B /* Pods-homeAssistant.release.xcconfig */,
-				2C20E517942151837AF80FB0 /* Pods-homeAssistant-homeAssistantTests.debug.xcconfig */,
-				F16A189E0A7E51940F4C8B99 /* Pods-homeAssistant-homeAssistantTests.release.xcconfig */,
+				55C9E2E5E7D191CB7AA67B62 /* Pods-homeassistant.debug.xcconfig */,
+				292827595FF756D972167B1B /* Pods-homeassistant.release.xcconfig */,
+				2C20E517942151837AF80FB0 /* Pods-homeassistant-homeassistantTests.debug.xcconfig */,
+				F16A189E0A7E51940F4C8B99 /* Pods-homeassistant-homeassistantTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* homeAssistantTests */ = {
+		00E356ED1AD99517003FC87E /* homeassistantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "homeAssistantTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "homeassistantTests" */;
 			buildPhases = (
 				B04993E1B66057354F0042CA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -177,14 +177,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = homeAssistantTests;
-			productName = homeAssistantTests;
-			productReference = 00E356EE1AD99517003FC87E /* homeAssistantTests.xctest */;
+			name = homeassistantTests;
+			productName = homeassistantTests;
+			productReference = 00E356EE1AD99517003FC87E /* homeassistantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* homeAssistant */ = {
+		13B07F861A680F5B00A75B9A /* homeassistant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "homeAssistant" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "homeassistant" */;
 			buildPhases = (
 				9F00C380FB93D5802AADCAFE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -199,9 +199,9 @@
 			);
 			dependencies = (
 			);
-			name = homeAssistant;
-			productName = homeAssistant;
-			productReference = 13B07F961A680F5B00A75B9A /* homeAssistant.app */;
+			name = homeassistant;
+			productName = homeassistant;
+			productReference = 13B07F961A680F5B00A75B9A /* homeassistant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "homeAssistant" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "homeassistant" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,8 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* homeAssistant */,
-				00E356ED1AD99517003FC87E /* homeAssistantTests */,
+				13B07F861A680F5B00A75B9A /* homeassistant */,
+				00E356ED1AD99517003FC87E /* homeassistantTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,15 +280,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant/Pods-homeAssistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant/Pods-homeassistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant/Pods-homeAssistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant/Pods-homeassistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeAssistant/Pods-homeAssistant-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeassistant/Pods-homeassistant-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6FE4871EF3BDC2951328D0FD /* [CP] Embed Pods Frameworks */ = {
@@ -297,15 +297,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F00C380FB93D5802AADCAFE /* [CP] Check Pods Manifest.lock */ = {
@@ -323,7 +323,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-homeAssistant-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-homeassistant-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -345,7 +345,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-homeAssistant-homeAssistantTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-homeassistant-homeassistantTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -358,15 +358,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant/Pods-homeAssistant-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant/Pods-homeassistant-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant/Pods-homeAssistant-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant/Pods-homeassistant-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeAssistant/Pods-homeAssistant-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeassistant/Pods-homeassistant-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7A808641384F09C467B6714 /* [CP] Copy Pods Resources */ = {
@@ -375,15 +375,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeAssistant-homeAssistantTests/Pods-homeAssistant-homeAssistantTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeassistant-homeassistantTests/Pods-homeassistant-homeassistantTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -412,7 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* homeAssistantTests.m in Sources */,
+				00E356F31AD99517003FC87E /* homeassistantTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +430,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* homeAssistant */;
+			target = 13B07F861A680F5B00A75B9A /* homeassistant */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,14 +438,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C20E517942151837AF80FB0 /* Pods-homeAssistant-homeAssistantTests.debug.xcconfig */;
+			baseConfigurationReference = 2C20E517942151837AF80FB0 /* Pods-homeassistant-homeassistantTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = homeAssistantTests/Info.plist;
+				INFOPLIST_FILE = homeassistantTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,17 +459,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homeAssistant.app/homeAssistant";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homeassistant.app/homeassistant";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F16A189E0A7E51940F4C8B99 /* Pods-homeAssistant-homeAssistantTests.release.xcconfig */;
+			baseConfigurationReference = F16A189E0A7E51940F4C8B99 /* Pods-homeassistant-homeassistantTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = homeAssistantTests/Info.plist;
+				INFOPLIST_FILE = homeassistantTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -483,19 +483,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homeAssistant.app/homeAssistant";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homeassistant.app/homeassistant";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55C9E2E5E7D191CB7AA67B62 /* Pods-homeAssistant.debug.xcconfig */;
+			baseConfigurationReference = 55C9E2E5E7D191CB7AA67B62 /* Pods-homeassistant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = homeAssistant/Info.plist;
+				INFOPLIST_FILE = homeassistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +506,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = homeAssistant;
+				PRODUCT_NAME = homeassistant;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -515,12 +515,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292827595FF756D972167B1B /* Pods-homeAssistant.release.xcconfig */;
+			baseConfigurationReference = 292827595FF756D972167B1B /* Pods-homeassistant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = homeAssistant/Info.plist;
+				INFOPLIST_FILE = homeassistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +531,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = homeAssistant;
+				PRODUCT_NAME = homeassistant;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -663,7 +663,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "homeAssistantTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "homeassistantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "homeAssistant" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "homeassistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -681,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "homeAssistant" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "homeassistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
