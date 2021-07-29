@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
   title:{
     fontSize:34,
     fontWeight:'600',
-    paddingBottom:'3%'
+    paddingBottom:10
   },
   entitiesBox: {
     backgroundColor: colors.white,

@@ -5,8 +5,7 @@ import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { styles, colors } from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import MIcon from 'react-native-vector-icons/MaterialCommunityIcons';
-// import Icon from 'react-native-vector-icons/dist/FontAwesome';
-import { DragSortableView, AutoDragSortableView, AnySizeDragSortableView } from 'react-native-drag-sort';
+import {AnySizeDragSortableView } from 'react-native-drag-sort';
 
 const collection = require("./collection.json")
 
@@ -56,10 +55,11 @@ const App = () => {
   }
 
   return (
-    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: '5%', paddingTop: "12%" }}>
+    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
       <Text style={styles.title}>Dashboard</Text>
       {
         data && <AnySizeDragSortableView
+        movedWrapStyle={styles.entitiesBox}
           ref={sortableViewRef}
           dataSource={layoutItems.filter(function (item) {
             return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
