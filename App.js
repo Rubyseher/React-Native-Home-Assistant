@@ -5,7 +5,7 @@ import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { styles, colors } from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import MIcon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {AnySizeDragSortableView } from 'react-native-drag-sort';
+import { AnySizeDragSortableView } from 'react-native-drag-sort';
 
 const collection = require("./collection.json")
 
@@ -32,18 +32,9 @@ const App = () => {
 
   const _renderItem = (item, index, isMoved) => {
     const iconSizes = { small: 40, medium: 50, large: 60 }
-    const contextMenu = [
-      { key: 'foo', title: 'Foo' },
-      { isSeparator: true },
-      { key: 'bar', title: 'Bar' },
-    ]
-
     return (
       <TouchableOpacity
-        contextMenu={contextMenu}
-        onContextMenuItemClick={event => {
-          console.log(event.nativeEvent)
-        }}
+
         style={[styles.entitiesBox, styles[layoutSizes[item].size]]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
@@ -57,9 +48,12 @@ const App = () => {
   return (
     <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
       <Text style={styles.title}>Dashboard</Text>
+      <View style={styles.entitiesBox} >
+        <Text>hi</Text>
+      </View>
       {
         data && <AnySizeDragSortableView
-        movedWrapStyle={styles.entitiesBox}
+          movedWrapStyle={styles.entitiesBox}
           ref={sortableViewRef}
           dataSource={layoutItems.filter(function (item) {
             return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
