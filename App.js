@@ -21,7 +21,7 @@ const App = () => {
         "http://home.local:8123",
         REACT_APP_ACCESS_TOKEN
       );
-      let tempConnection=await createConnection({ auth })
+      let tempConnection = await createConnection({ auth })
       setConnection(tempConnection)
       subscribeEntities(tempConnection, (entities) => {
         setData(entities)
@@ -33,9 +33,15 @@ const App = () => {
 
   const _renderItem = (item, index, isMoved) => {
     const iconSizes = { small: 40, medium: 50, large: 60 }
+    const pressAction = (item) => {
+      if (["switch", "light", "input_boolean"].includes(item.split(".", 1)[0]))
+        callService(connection, "homeassistant", "toggle", { entity_id: item })
+      else if (["scene"].includes(item.split(".", 1)[0]))
+        callService(connection, "homeassistant", "turn_on", { entity_id: item })
+    }
     return (
       <TouchableOpacity
-        onPress={()=> callService(connection, "homeassistant", "toggle", { entity_id: item })}
+        onPress={() => pressAction(item)}
         style={[styles.entitiesBox, styles[layoutSizes[item].size]]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
