@@ -1,5 +1,5 @@
 import React, { Fragment, useRef, useEffect, useState } from 'react';
-import { Auth, createConnection, subscribeEntities, createLongLivedTokenAuth, } from "home-assistant-js-websocket";
+import { callService, createConnection, subscribeEntities, createLongLivedTokenAuth, } from "home-assistant-js-websocket";
 import { ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { styles, colors } from './styles';
@@ -12,6 +12,7 @@ const collection = require("./collection.json")
 const App = () => {
   const [data, setData] = useState()
   const [layoutItems, setLayoutItems] = useState([])
+  const [connection, setConnection] = useState()
   const [layoutSizes, setLayoutSizes] = useState(collection)
   const sortableViewRef = useRef();
   useEffect(() => {
@@ -20,9 +21,9 @@ const App = () => {
         "http://home.local:8123",
         REACT_APP_ACCESS_TOKEN
       );
-
-      const connection = await createConnection({ auth });
-      subscribeEntities(connection, (entities) => {
+      let tempConnection=await createConnection({ auth })
+      setConnection(tempConnection)
+      subscribeEntities(tempConnection, (entities) => {
         setData(entities)
         setLayoutItems(Object.keys(entities))
       });
@@ -34,7 +35,7 @@ const App = () => {
     const iconSizes = { small: 40, medium: 50, large: 60 }
     return (
       <TouchableOpacity
-
+        onPress={()=> callService(connection, "homeassistant", "toggle", { entity_id: item })}
         style={[styles.entitiesBox, styles[layoutSizes[item].size]]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
