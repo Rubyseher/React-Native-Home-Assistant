@@ -1,13 +1,39 @@
 import React, { Fragment, useRef, useEffect, useState } from 'react';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import { callService, createConnection, subscribeEntities, createLongLivedTokenAuth, } from "home-assistant-js-websocket";
-import { ScrollView, Text, View, TouchableOpacity } from 'react-native';
+import { useWindowDimensions,Button, Text, View, TouchableOpacity } from 'react-native';
 import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { styles, colors } from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import MIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { AnySizeDragSortableView } from 'react-native-drag-sort';
+import { NavigationContainer } from '@react-navigation/native';
+import test1 from './test1';
+import test2 from './test2';
+
 
 const collection = require("./collection.json")
+const Drawer = createDrawerNavigator();
+
+function HomeScreen({ navigation }) {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Button
+        onPress={() => navigation.toggleDrawer()}
+        title="Go to test1"
+      />
+    </View>
+  );
+}
+
+function NotificationsScreen({ navigation }) {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Button onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
+        title="Go to test2"/>
+    </View>
+  );
+}
 
 const App = () => {
   const [data, setData] = useState()
@@ -15,6 +41,7 @@ const App = () => {
   const [connection, setConnection] = useState()
   const [layoutSizes, setLayoutSizes] = useState(collection)
   const sortableViewRef = useRef();
+
   useEffect(() => {
     const loadData = async () => {
       const auth = createLongLivedTokenAuth(
@@ -53,28 +80,38 @@ const App = () => {
   }
 
   return (
-    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
-      <Text style={styles.title}>Dashboard</Text>
-      <View style={styles.entitiesBox} >
-        <Text>hi</Text>
-      </View>
-      {
-        data && <AnySizeDragSortableView
-          movedWrapStyle={styles.entitiesBox}
-          ref={sortableViewRef}
-          dataSource={layoutItems.filter(function (item) {
-            return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
-          })}
-          keyExtractor={(item, i) => i}
-          renderItem={_renderItem}
-          onDataChange={(d, callback) => {
-            console.log(d);
-            setLayoutItems(d);
-            callback();
-          }}
-        />
-      }
-    </View>
+    // <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
+    //   <Text style={styles.title}>Dashboard</Text>
+    //   <View style={styles.entitiesBox} >
+    //     <Text>hi</Text>
+    //   </View>
+    //   {
+    //     data && <AnySizeDragSortableView
+    //       movedWrapStyle={styles.entitiesBox}
+    //       ref={sortableViewRef}
+    //       dataSource={layoutItems.filter(function (item) {
+    //         return (item.split(".")[0] === "scene" || item.split(".")[0] === "switch");
+    //       })}
+    //       keyExtractor={(item, i) => i}
+    //       renderItem={_renderItem}
+    //       onDataChange={(d, callback) => {
+    //         console.log(d);
+    //         setLayoutItems(d);
+    //         callback();
+    //       }}
+    //     />
+    //   }
+    // </View>
+
+    <NavigationContainer>
+      <Drawer.Navigator initialRouteName="test1"  drawerStyle={{ width: '18%' }} 
+      drawerType={ useWindowDimensions().width >= 768 ? 'permanent' : 'front'}
+      overlayColor="transparent"
+      >
+        <Drawer.Screen name="test1" component={HomeScreen} />
+        <Drawer.Screen name="test2" component={NotificationsScreen} />
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 };
 export default App;
