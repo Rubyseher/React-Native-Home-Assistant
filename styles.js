@@ -12,6 +12,7 @@ export const colors = {
 export const styles = StyleSheet.create({
   // *********************** MAIN SCREEN ***********************
   title:{
+    color:colors.darkBlue,
     fontSize:34,
     fontWeight:'600',
     paddingBottom:10
