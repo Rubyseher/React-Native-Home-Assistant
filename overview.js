@@ -38,21 +38,24 @@ const Overview = () => {
       else if (["scene"].includes(item.split(".", 1)[0]))
         callService(connection, "homeassistant", "turn_on", { entity_id: item })
     }
+    console.log(item, "state is", data[item].state);
     return (
       <TouchableOpacity
         onPress={() => pressAction(item)}
-        style={[styles.entitiesBox, styles[layoutSizes[item].size]]}
+        style={[styles.entitiesBox, styles[layoutSizes[item].size],
+        { backgroundColor: (data[item].state === "on" ? colors.darkBlue : colors.white) }
+        ]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
-        <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={colors.darkBlue} solid />
+        <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={(data[item].state === "on" ? colors.white : colors.darkBlue)} solid />
         {layoutSizes[item].size != "small" ? <Text>{item}</Text> : null}
       </TouchableOpacity>
     )
   }
 
   return (
-    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40}}>
+    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
       <Text style={styles.title}>Overview</Text>
       {
         data && <AnySizeDragSortableView
