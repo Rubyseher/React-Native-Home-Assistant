@@ -1,4 +1,4 @@
-import React, { useRef, useContext,useEffect, useState } from 'react';
+import React, { useRef, useContext, useEffect, useState } from 'react';
 import { callService, createConnection, subscribeEntities, createLongLivedTokenAuth, } from "home-assistant-js-websocket";
 import { Text, View, TouchableOpacity } from 'react-native';
 import { REACT_APP_ACCESS_TOKEN } from '@env';
@@ -9,13 +9,18 @@ import { DataContext } from './App';
 const collection = require("./collection.json")
 
 const Overview = () => {
-  const  {data,connection}  = useContext(DataContext)
+  const { data, connection } = useContext(DataContext)
   const [layoutItems, setLayoutItems] = useState([])
   const [layoutSizes, setLayoutSizes] = useState(collection)
   const sortableViewRef = useRef();
+  const contextMenu = [
+    { key: 'foo', title: 'Foo' },
+    { isSeparator: true },
+    { key: 'bar', title: 'Bar' },
+  ]
 
   useEffect(() => {
-    data &&  setLayoutItems(Object.keys(data))
+    data && setLayoutItems(Object.keys(data))
   }, [data])
 
   const _renderItem = (item, index, isMoved) => {
@@ -43,7 +48,14 @@ const Overview = () => {
 
   return (
     <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
-      <Text style={styles.title}>Overview</Text>
+      <View
+        contextMenu={contextMenu}
+        onContextMenuItemClick={event => {
+          console.log(event.nativeEvent)
+        }}>
+        <Text style={styles.title}>Overview</Text>
+      </View>
+
       {
         data && <AnySizeDragSortableView
           movedWrapStyle={styles.entitiesBox}
