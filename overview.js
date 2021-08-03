@@ -1,34 +1,22 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useContext,useEffect, useState } from 'react';
 import { callService, createConnection, subscribeEntities, createLongLivedTokenAuth, } from "home-assistant-js-websocket";
 import { Text, View, TouchableOpacity } from 'react-native';
 import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { styles, colors } from './styles';
 import MIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { AnySizeDragSortableView } from 'react-native-drag-sort';
+import { DataContext } from './App';
 const collection = require("./collection.json")
 
 const Overview = () => {
-  const [data, setData] = useState()
+  const  {data,connection}  = useContext(DataContext)
   const [layoutItems, setLayoutItems] = useState([])
-  const [connection, setConnection] = useState()
   const [layoutSizes, setLayoutSizes] = useState(collection)
   const sortableViewRef = useRef();
 
   useEffect(() => {
-    const loadData = async () => {
-      const auth = createLongLivedTokenAuth(
-        "http://home.local:8123",
-        REACT_APP_ACCESS_TOKEN
-      );
-      let tempConnection = await createConnection({ auth })
-      setConnection(tempConnection)
-      subscribeEntities(tempConnection, (entities) => {
-        setData(entities)
-        setLayoutItems(Object.keys(entities))
-      });
-    }
-    loadData()
-  }, [])
+    data &&  setLayoutItems(Object.keys(data))
+  }, [data])
 
   const _renderItem = (item, index, isMoved) => {
     const iconSizes = { small: 40, medium: 50, large: 60 }
@@ -38,7 +26,6 @@ const Overview = () => {
       else if (["scene"].includes(item.split(".", 1)[0]))
         callService(connection, "homeassistant", "turn_on", { entity_id: item })
     }
-    console.log(item, "state is", data[item].state);
     return (
       <TouchableOpacity
         onPress={() => pressAction(item)}
