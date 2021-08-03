@@ -35,7 +35,7 @@ const Overview = () => {
       <TouchableOpacity
         onPress={() => pressAction(item)}
         style={[styles.entitiesBox, styles[layoutSizes[item].size],
-        { backgroundColor: (data[item].state === "on" ? colors.darkBlue : colors.white) }
+        { backgroundColor: (data[item].state === "on" ? colors.darkBlue : colors.lightGrey) }
         ]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}

@@ -2,9 +2,9 @@ import { StyleSheet } from "react-native";
 
 export const colors = {
   white:'#ffffff',
-  grey: '#9c9c9c',
-  blue: '#3f91ff',
-  lightBlue: '#f3fbff',
+  lightGrey: '#f4f4f4',
+  darkGrey: '#9c9c9c',
+  lightBlue: '#66b8ff',
   darkBlue: '#065ff6',
   purple: '#634dd3',
 }
@@ -23,8 +23,8 @@ export const styles = StyleSheet.create({
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
-    marginVertical:10,
-    marginHorizontal:7,
+    marginVertical:14,
+    marginHorizontal:14,
     shadowColor: "#000",
     shadowOffset: {
         width: 0,
