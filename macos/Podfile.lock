@@ -234,6 +234,8 @@ PODS:
     - React-cxxreact (= 0.63.37)
     - React-jsi (= 0.63.37)
   - React-jsinspector (0.63.37)
+  - react-native-safe-area-context (3.2.0):
+    - React-Core
   - React-RCTActionSheet (0.63.37):
     - React-Core/RCTActionSheetHeaders (= 0.63.37)
   - React-RCTAnimation (0.63.37):
@@ -294,6 +296,42 @@ PODS:
     - React-Core (= 0.63.37)
     - React-cxxreact (= 0.63.37)
     - React-jsi (= 0.63.37)
+  - RNCMaskedView (0.1.11):
+    - React
+  - RNGestureHandler (1.10.3):
+    - React-Core
+  - RNReanimated (2.2.0):
+    - DoubleConversion
+    - FBLazyVector
+    - FBReactNativeSpec
+    - glog
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - React-callinvoker
+    - React-Core
+    - React-Core/DevSupport
+    - React-Core/RCTWebSocket
+    - React-CoreModules
+    - React-cxxreact
+    - React-jsi
+    - React-jsiexecutor
+    - React-jsinspector
+    - React-RCTActionSheet
+    - React-RCTAnimation
+    - React-RCTBlob
+    - React-RCTImage
+    - React-RCTLinking
+    - React-RCTNetwork
+    - React-RCTSettings
+    - React-RCTText
+    - React-RCTVibration
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - RNScreens (3.4.0):
+    - React-Core
+    - React-RCTImage
   - RNVectorIcons (8.1.0):
     - React-Core
   - Yoga (1.14.0)
@@ -338,6 +376,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native-macos/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native-macos/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native-macos/ReactCommon/jsinspector`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-RCTActionSheet (from `../node_modules/react-native-macos/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native-macos/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native-macos/Libraries/Blob`)
@@ -348,6 +387,10 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native-macos/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native-macos/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native-macos/ReactCommon`)
+  - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
+  - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native-macos/ReactCommon/yoga`)
 
@@ -398,6 +441,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-macos/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native-macos/ReactCommon/jsinspector"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
   React-RCTActionSheet:
     :path: "../node_modules/react-native-macos/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -418,6 +463,14 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-macos/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native-macos/ReactCommon"
+  RNCMaskedView:
+    :path: "../node_modules/@react-native-community/masked-view"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   Yoga:
@@ -450,6 +503,7 @@ SPEC CHECKSUMS:
   React-jsi: 95337001f7c137cb7aa17b39a05b654b54ddcccb
   React-jsiexecutor: 6dcf6fb045190e13ab29d5a3eed010aaecd934be
   React-jsinspector: df2c5f97e26ffc68bea06c4aae11e4ce09e53e3e
+  react-native-safe-area-context: e471852c5ed67eea4b10c5d9d43c1cebae3b231d
   React-RCTActionSheet: faf3d96046a0fa2b40c3c1bd0c36be860b42f2a1
   React-RCTAnimation: 7e62b31253f45c752f7593cff24a8845557b4d13
   React-RCTBlob: 8a1c648f7887d850972233f742589e67d52357bb
@@ -460,6 +514,10 @@ SPEC CHECKSUMS:
   React-RCTText: 2f9504b1157ccce317774eb3ca935a923ddc95d7
   React-RCTVibration: db89493e2520ad419eeb59e40059e246d9e71607
   ReactCommon: 014dd1ff02eab367fa6676b7b408d1a08893a98d
+  RNCMaskedView: f127cd9652acfa31b91dcff613e07ba18b774db6
+  RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
+  RNReanimated: 9c13c86454bfd54dab7505c1a054470bfecd2563
+  RNScreens: 21b73c94c9117e1110a79ee0ee80c93ccefed8ce
   RNVectorIcons: 31cebfcf94e8cf8686eb5303ae0357da64d7a5a4
   Yoga: 77d9987384e26b4aaf3e7a01808838cc2d4304f2
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a

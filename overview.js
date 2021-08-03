@@ -41,7 +41,7 @@ const Overview = () => {
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
         <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={(data[item].state === "on" ? colors.white : colors.darkBlue)} solid />
-        {layoutSizes[item].size != "small" ? <Text>{item}</Text> : null}
+        {layoutSizes[item].size != "small" ? <Text style={{color:(data[item].state === "on" ? colors.white : colors.darkBlue)}}>{data[item].attributes.friendly_name}</Text> : null}
       </TouchableOpacity>
     )
   }
@@ -55,7 +55,6 @@ const Overview = () => {
         }}>
         <Text style={styles.title}>Overview</Text>
       </View>
-
       {
         data && <AnySizeDragSortableView
           movedWrapStyle={styles.entitiesBox}

@@ -4,9 +4,11 @@ import { createConnection, subscribeEntities, createLongLivedTokenAuth, Connecti
 import { useWindowDimensions, View } from 'react-native';
 import { REACT_APP_ACCESS_TOKEN } from '@env';
 import { NavigationContainer } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
 import Overview from './overview';
 import Automation from './automation';
 import { createStackNavigator } from '@react-navigation/stack';
+import { colors } from './styles';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -48,10 +50,23 @@ const App = () => {
   }, [])
 
   return (
-    <DataContext.Provider value={{data,connection}}>
+    <DataContext.Provider value={{ data, connection }}>
       <NavigationContainer>
-        <Drawer.Navigator initialRouteName="Overview" drawerStyle={{ width: '18%' }} overlayColor="transparent"
+        <Drawer.Navigator initialRouteName="Overview" drawerStyle={{ width: '9%'}} overlayColor="transparent"
           drawerType={useWindowDimensions().width >= 768 ? 'permanent' : 'front'}
+          
+          screenOptions={({ route }) => ({
+            drawerIcon: ({ focused, color, size }) => {
+              let iconName;
+              if (route.name === 'Overview') {
+                iconName ='home'
+              } else if (route.name === 'Automation') {
+                iconName='color-wand-outline';
+              }
+              return <Icon name={iconName} size={44} color={focused?colors.purple:colors.darkBlue} />;
+            },
+            drawerLabel: () => null,
+          })}
         >
           <Drawer.Screen name="Overview" component={OverviewScreen} />
           <Drawer.Screen name="Automation" component={AutomationScreen} />
