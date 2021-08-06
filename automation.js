@@ -1,12 +1,16 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, Dimensions } from 'react-native';
 import { styles, colors } from './styles';
+import { Gradient,AutomationBox } from './components';
 
 const Automation = () => {
   return (
-    <View style={{ backgroundColor: colors.white, height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40 }}>
-      <Text style={styles.title}>Automation</Text>
-
+    <View>
+      <Gradient />
+      <View style={styles.mainBg}>
+        <Text style={styles.title}>Automation</Text>
+        <AutomationBox/>
+      </View>
     </View>
   )
 }

@@ -52,7 +52,7 @@ const App = () => {
   return (
     <DataContext.Provider value={{ data, connection }}>
       <NavigationContainer>
-        <Drawer.Navigator initialRouteName="Overview" drawerStyle={{ width: '6%'}} overlayColor="transparent"
+        <Drawer.Navigator initialRouteName="Automation" drawerStyle={{ width: '6%'}} overlayColor="transparent"
           drawerType={useWindowDimensions().width >= 768 ? 'permanent' : 'front'}
           
           screenOptions={({ route }) => ({
