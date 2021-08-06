@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-native-fontawesome": "^0.2.6",
+    "@microsoft/react-native-svg-desktop": "^12.1.1",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/drawer": "^5.12.5",
     "@react-navigation/native": "^5.9.4",
@@ -28,6 +29,7 @@
     "react-native-reanimated": "^2.2.0",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^3.4.0",
+    "react-native-svg": "^12.1.1",
     "react-native-vector-icons": "^8.1.0"
   },
   "devDependencies": {
