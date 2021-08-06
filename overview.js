@@ -44,24 +44,24 @@ const Overview = () => {
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
         <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={(data[item].state === "on" ? colors.white : colors.darkBlue)} solid />
-        {layoutSizes[item].size != "small" ? <Text style={{ color: (data[item].state === "on" ? colors.white : colors.darkBlue) }}>{data[item].attributes.friendly_name}</Text> : null}
+        {layoutSizes[item].size != "small" ? <Text style={{fontWeight:'bold', color: (data[item].state === "on" ? colors.white : colors.darkBlue) }}>{data[item].attributes.friendly_name}</Text> : null}
       </TouchableOpacity>
     )
   }
 
   return (
     <View>
-      <Svg height={height} width={width} style={{ zIndex: 0 }}>
+      <Svg height={height} width={width} >
         <Defs>
           <LinearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
-            <Stop offset="0" stopColor="#FFD080" stopOpacity="1" />
-            <Stop offset="1" stopColor="red" stopOpacity="1" />
+            <Stop offset="0" stopColor="#4BB8FF" stopOpacity="1" />
+            <Stop offset="1" stopColor="#0947DB" stopOpacity="1" />
           </LinearGradient>
         </Defs>
-        <Rect x="25" y="5" width={width} height={height} fill="url(#grad)" />
+        <Rect width={width} height={height} fill="url(#grad)" />
       </Svg>
 
-      <View style={{ height: '100%', width: '100%', paddingHorizontal: 20, paddingTop: 40,position:'absolute'}}>
+      <View style={styles.mainBg}>
         {/* <View
         contextMenu={contextMenu}
         onContextMenuItemClick={event => {
