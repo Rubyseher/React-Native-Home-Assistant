@@ -38,13 +38,13 @@ const Overview = () => {
       <TouchableOpacity
         onPress={() => pressAction(item)}
         style={[styles.entitiesBox, styles[layoutSizes[item].size],
-        { backgroundColor: (data[item].state === "on" ? colors.darkBlue : colors.lightGrey) }
+        { backgroundColor: (data[item].state === "on" ? colors.white90 : colors.white50) }
         ]}
         onLongPress={() => { sortableViewRef.current.startTouch(item, index) }}
         onPressOut={() => { sortableViewRef.current.onPressOut() }}
       >
-        <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={(data[item].state === "on" ? colors.white : colors.darkBlue)} solid />
-        {layoutSizes[item].size != "small" ? <Text style={{fontWeight:'bold', color: (data[item].state === "on" ? colors.white : colors.darkBlue) }}>{data[item].attributes.friendly_name}</Text> : null}
+        <MIcon name={layoutSizes[item].icon} size={iconSizes[layoutSizes[item].size]} color={(data[item].state === "on" ? colors.darkBlue : colors.white)} solid />
+        {layoutSizes[item].size != "small" ? <Text style={{fontWeight:'bold', color: (data[item].state === "on" ? colors.darkBlue : colors.white) }}>{data[item].attributes.friendly_name}</Text> : null}
       </TouchableOpacity>
     )
   }

@@ -2,6 +2,8 @@ import { StyleSheet } from "react-native";
 
 export const colors = {
   white: '#ffffff',
+  white90:'rgba(255, 255, 255, 0.9)',
+  white50: 'rgba(255, 255, 255, 0.51)',
   lightGrey: '#f4f4f4',
   darkGrey: '#9c9c9c',
   lightBlue: '#66b8ff',
@@ -25,13 +27,13 @@ export const styles = StyleSheet.create({
     position: 'absolute'
   },
   entitiesBox: {
-    backgroundColor: colors.white,
     borderRadius: 20,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     marginVertical: 14,
     marginHorizontal: 14,
+
   },
   small: {
     width: 80,
