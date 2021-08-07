@@ -63,7 +63,7 @@ const App = () => {
               } else if (route.name === 'Automation') {
                 iconName='color-wand-outline';
               }
-              return <Icon name={iconName} size={44} color={focused?colors.purple:colors.darkBlue} />;
+              return <Icon name={iconName} size={44} color={focused?colors.orange:colors.darkBlue} />;
             },
             drawerLabel: () => null,
           })}
